@@ -1,0 +1,5641 @@
+t1
+ 
+ Conditional debugging ...sometime we put flag into applicaiton ..wherever we need to put things
+ Debug logs get displayed or get generated 
+
+If u want to split logic between classes then go for handlers 
+Like pbhandlers
+
+Attribute tables ..metadata ..data abouy data
+
+SOI writer 
+
+Merge file concept ...same file with 2 names ..multiple files get created
+Tech concept. .one thread creating file ..it got terminated at same time other thread take responsibility 
+
+Sybase is built on java and it is very secure 
+
+
+Bouncy castle ...
+
+Encoding we do basically for certificate enhancement
+
+Tomcat /jdk
+Java.policy ..standard file for permission 
+java.security ..file for encyrptiom 
+
+Java predefined provider for security enhancement 
+
+If we pass security provider then hacker comes to know pre provider so.this causes security leakage ..so we used to change priorities and add our security provider 
+
+Spring security framework using bounty castle 
+
+SQL server has capability to send emails directly from databases
+Indexing also done at table 
+
+Denormalization ...data where redundancy is there
+
+Normalization ... redundant data is minimized 
+
+Zero contact delivery ...service 2 creating file and put into FTP location
+Service 1 ..picking same file and process  it
+
+Problems .servixe 2 is .placing file at FTP location and service 1 reading same file so it won't read properly as data will be corrupted
+
+And other issue like data loss 
+
+Checksum ..binary format data ...which check whole file is transfered or not 
+
+32 system ..NTFS ...compress system 
+
+Secure FTP ... SFTP 
+
+JSCH ..library for SFTP ...pure java implementation of Ssh2
+
+.SSH ...host keys 
+We can generate ssh keys 
+Public and private 
+Public and private keys 
+
+Public key ..system 
+Private key....bitbucket 
+
+So along with window login ...your bitbucket login successfully
+
+
+YouTube/Netflix ..using streaming services ..streaming API 
+Apache common ..FTP
+JSCH ..jcraft ...SfTp
+
+Compress ...zip form
+Stream ..byte form ...binary data 
+
+What are the areas of improvement ..feedback 
+
+As business logic are distributed over different layers so we can move to cloud as everyone moving to cloud .....CPS/cues perspective
+
+Quartz framework ..job processing 
+
+Framework ..one is framework to support complex 
+Other is to go with custom clases ..which gives lot of flexibility 
+
+Message diges t...what message we need to send 
+
+Splunk.....used to search and analyze machine data 
+Report generation 
+Monitoring 
+It used to search log files. ..check how many request coming etc ..main work of splunk is what data is coming in request/response 
+
+
+Grafana ..is tool like kibana which used to show request /load on system 
+If we want to checkdata on server
+
+Netstate...give port status and everything
+
+Stash changes ...
+W... Forward ....WF ..windows forward slash
+
+Windows back slash is always double ...\\
+
+One country may have different marker 
+
+
+Dialect.  Middleware ...if we want to convert one object to another like soap service hosted on C# and consumer is consuming from java MAp so basically we have convertors 
+
+If string coming then what will be equivalent DS in java 
+
+ Ref system is using concept of iframes 
+They used to create frame inside one page 
+
+I-frame ..it's obselete now ..nobody using
+
+Advantage ..single URL is there ...no URL change on top which means no relapsing of page ..common CSS ..Ajax calls under i-frame are easy 
+
+Now we r using concept of tiles ...alternative to i-frame 
+
+Spa ..single page application
+MVC ..tiles like structure is used 
+Event based architecture
+
+Multitier application with multiple jar and wars .It is kind of enterprise application deployed into weblogic
+
+Xstream. Is java library to serialize objects into XML ...kind of converter but not at response level
+
+Jackson API supports only JSON format 
+
+Synchronization queues ..insert operation must wait for another removal of item by another thread 
+Threads used to maintain in executor pool
+
+Ref specific ..one handler is assigned to one thread  and thread pool used to maintain both 
+Handler data will remain intact with thread pool data
+Handler is basically used to split logic across different classes 
+
+When shutdown request raised then it will check status of threads running in executor pool so it will wait for sometime ..so it will close first and then shutdown 
+
+
+
+
+
+
+How server will ensure that response came back to server is in same format which it requested intially...that is via concept of thread local
+
+==================================================================================
+t2
+ 
+ Rest template ..is part of spring used to provide basic nessccesities to have rest API call
+
+
+When we submit on callable statement it used to return future object 
+
+Call methods () 
+.submit ..it will return future object only 
+
+Redis server ...session management at server side 
+
+Profing concept ..Dev ..uat 
+Basically spring used concept of profiling 
+
+As we moving towards docker ..image created which rotates across all system 
+There will be no config file so image will be pure image ..so when lookup is performed so it will go to particular location so it get different files based on request like uat Dev prod 
+
+@values ...get things from application properties file 
+
+By constructor /setter ..things get setup properly 
+
+Beauty of spring ...we can override things at any time 
+Beans initialized properly or not 
+Programming ..we can make changes at run time in any bean or code
+
+
+ADP ...SALARY MANAGMENT COMPNAY
+Company payslip comes via ADP SOFTWARE 
+
+design pattern ..code smell..
+
+
+Behaviosec.com...words on AI for security enhancement
+
+Jstio ...cloud deployment
+
+Jstio .. At a high level, Istio helps reduce the complexity of these deployments, and eases the strain on your development teams. It is a completely open source service mesh that layers transparently onto existing distributed applications. It is also a platform, including APIs that let it integrate into any logging platform, or telemetry or policy system
+
+
+3 beans created for thread management 
+
+Command line runner ..like if any argument if I want to execute something at time of initialization like seed data or like application start
+
+Command Line Runner is an interface. It is used to execute the code after the Spring Boot application started.
+First ...bean intialization
+Second ..autowiring 
+Np exception we get on console
+
+Command line runner ..used to execute code when spring boot applicaiton get started 
+
+Let say error comes at bean intialization so we have to shutdown or forceful exit ..which may cause crash 
+Gracefully exit is always recommended
+Another level of uncertainty
+
+Atlast ..we r sitting on the calls and it's very dieing state 
+
+Application runner 
+Interface has 2 arguments 
+No-optional
+Optional
+
+@postconstruxt ..propertset ..we can use to set properties at time of bean initlization
+
+Some fields shared at dB and some at codebase ..that is purpose of loadpropeties  intializator 
+
+
+Adaptor is like convertor 
+My mobile is with c pin type
+My charger is of d -type 
+So we need convertor which is basically adaptor
+
+Handler r class build to perform specific operation
+
+Xsd is metadata of XML
+FTL ..free Marker took...alternative to JSP...FTL used for dynamic content 
+
+Dynamic beans are only in struts 
+
+Runnable method run  always returns
+ null
+Callable always return future object
+
+Horizontal lb Vs vertical LB
+When data is high then go for horizontal load balancer
+When no of request is high LIKE REQUEST/RESPONSE CHAIN then go for VLB
+
+One thread for batch update 
+Another thread for fetching data 
+Third thread for connection
+4th thread for cache update
+
+
+Thread draining concept in refdata 
+When performing operation  on queues and making call it will unload all elements from queue and load to another collection  it will drain out the queue so shutdown of things gracefully and safety exit of thread
+
+Properties ..inside service meta data is being passed to every thread 
+
+One thread is attached to one property ...whenever any update happen thread get activated
+....thread is pointing to handler..handler is responsible to handle changes ..being done by bean ...whenever change in handler ..thread get activated...scheduler is maintained to load all threads in cache
+
+Compass mongodb ..client 
+
+_------+verify below content/online-------++
+
+Microservice disadvantages that multiple instance running due to which log generated at multiple servers and difficult to track /monitor as don't know which request passed from lb1 /lb2/lb3
+
+due to which Elk comes into.picture and centralised logging/searching/monitoring
+
+-----+–--------_-----+---_____________------------
+
+
+Clusters r replicas in database
+
+Microservice has no state in itself it is restless 
+
+Dedb  is denomralized table database are used for temporary tables
+
+Everytime I fetch data from database ..it create query object so.more consumption/memory 
+Momentic queries are going on 
+
+When system start ..we generate basic queries (select ..insert...update) and put into cache
+
+Temporary tables created and get passed into SP and when operation performed then close tables 
+
+Everywhere we r using batch(it won't be momentic) when data is high ...threads we r using because there must be UI to show something 
+
+Arraylist ..let say it's not implementing serialization ..we get new arraylist ..we will never know type of objects inside arraylist 
+
+So we do deep cloning where we iterate particular objects to get type of objects ..(read and write objects)
+
+
+Serialization we r saving state of object so there is no way to save partial state of object like I want to serialize some properties but not all properties to save/serialize etc ...can cause performance issues 
+
+So externalisation comes into.picture as it is controlled by programmer where we can save partial state of object 
+
+Java has option of transient
+
+We initialize object by autowiring
+
+Class a super class
+Class B extends a 
+
+B= new  b right
+B= new a ...wrong 
+A= new b right
+A = new A right 
+
+Schema ..will be created on top of cluster
+
+====================================================================================
+t3/mongodb
+ 
+ 3 level security
+
+UI level ..whatever data we get from client ..SSL
+
+HTTP URL dealing ..we deal with certificates 
+
+Middlelevel ..process data via encyrption
+
+
+Database layer ..using certificate ..we can secure txn related data 
+
+2 ways handshake certificates 
+
+API ..can u share payload 
+Cluster can have many database
+
+But one cluster will connect to one database  
+
+Mongo is alternative to jdbc template
+
+
+Concept ...sometime we want to  hide some methods 
+Core methods 
+Public version 
+Private version .. implementation
+
+So we don't need to change implementation everytime
+So we just use parameters in public and change return of this method 
+
+Mongodb 
+It is documented style so we r using JSON here 
+
+Everyid has unique id  document ...total no of records
+One document is considered as one row 
+
+On left side ..collections
+
+Document metadata will be of object 
+
+Analyze under schema ..u will see it is having type ...bson ..key value type
+
+How many documents are available in collection per instances 
+
+Write query into form of objects 
+And criteria will add into query ..filters we apply 
+
+$lt ,$ GT...less than and greater than 
+
+Consider whole collection as one table 
+There is no link btw collection/database
+
+No multiple tables ..no sp..no join we have in mongodb
+
+Java provides 2 version of mongodb
+Java asynch Mogo
+Java syn mongo
+
+We have read and write concern in mongodb 
+
+Write concern.. ..minimum it will write in one of the cluster ...min majority concerns
+
+
+Read concern(local available majority) ..it is send to database but it doesn't return acknowledge (dont know whether it is inserted or not )
+
+
+If we r working with replicas then at least acknowledge for one of the replicas 
+Mongo.has no primary/foreign key relationship
+
+Just we have primary key thing in mongo
+
+JSON format is easy to read 
+
+Indexes we can create whichever field we are fetching frequently
+
+Ttl ..time to leave ..creation of index after particular time 
+
+
+Power Bi..tool for generating reports
+
+Whenever there is requirement of bulky  data then we use mongodb as intermediate dB and backend as Sybase database
+
+Aggregation ..it shows status of collection
+It shows preview of document 
+
+100 column... I need 40 columns we put lock/rules on those columns ..when user is inserting data it should consistent across everywhere 
+
+Shading concept ..which is used to partition on basis of hashkey region zones 
+
+Deep cloning ..copying elements from one dB to another dB one by one 
+
+Shallow cloning ..we just copy entire object of arraylist to another database
+
+Txns run under thread ...imp concept 
+
+Txn manager .. propagation is for 
+Propagation has value and requirement 
+
+There can be n number of txn manager used to define in properties like mode ..inherit
+
+Fetching data from.multiple tables ...SP work
+
+
+Stored procedure is class in spring 
+
+Storing into temporary tables and triggering tables via SP and indexes
+
+Rollback for cache ..own created customized exception class
+
+Models r basically pojo 
+
+JMS ..we used to maintain status 
+System become bulky 
+So we used to clean table time to time via handler /services
+
+
+=====================================================
+
+
+t4/reaxt
+ 
+ Any class we r passing inside provider ..state get maintained under stores 
+
+Maps states to props ..whenever state changing ..below.methods get called 
+Map states to props 
+Map dispatch to props
+
+above is Standard way to do.mapping between redux and react 
+
+Redux is kind of internal understanding thing
+
+Dispatch used to call redux 
+Once there is change in properties ..we have provider ..it.keep on checking
+Provider get activated once store some values
+
+
+Dispatcher keep on pinging if any change in state ...it used to check current action 
+
+3 dots (...) ...used to flatten an array
+Whatever properties in props it will pass all properties 
+
+
+Prop{1}
+Prop{2}
+Prop{3}
+
+Pass current ....action ...give new states
+
+Promise .... It returns and check current state of call
+
+Dispatch method is used to convert promise object to data 
+
+We will get data out of promise object using dispatcher method
+
+Relevance of this mapping to props ... syncing state with the props and making call to redux ...here when prop  changes then once state changed then virtual ROM .get changed 
+
+Root reducer ....component for combining 
+
+Parent class ...contain all reducer...root reducer.js
+
+Redux ..saga...think
+Configure store.js ....this configuration is required whenever we add redux related stuff 
+
+Jar is minified version so compression happens 
+
+Compression happens when distribution happens across the teams
+Which gives compiled and static files
+
+
+Webpack contains many more functionalities
+
+Tomcat ..localhost :8080 
+Index.html ..it.is static file 
+Tomcat ...run...then serving at local :8080/index.html
+
+Same case with serve ....cues new gui 
+Convert the distribution project (cues ..newgui) into static code 
+This is kind of way we can migrate ..small code 
+
+So we put static code of cues new gui 
+Into profilegui
+So we added static code of new gui into.profilegui 
+
+Inside proxy ..PAC files 
+How web browser and other user agents can automatically choose approximate proxy server for fetching given URL 
+
+IT people can control whole system without informing you 
+
+head recursion and tail recursion 
+
+2 ways to call method 
+
+One method ..itself calling ..it will be infinite until reaches condition
+
+Top to bottom ...head recursion
+Bottom to.top ...tail recursion 
+
+Init.d ...it's a standard file used to be ther in any Linux environment
+
+Like tomcat we got .exe in window but in Linux we don't get any .exe 
+So we used to put in folder 
+
+Zip folder ..tomcat window ..manually we have to set services via class path etc
+
+But it's kind of Automatic startup used to put in services
+
+Declarative way to set tomcat in Linux env 
+
+Init.d ..put files in folder where we want to automate the services 
+
+Tomcat Bin foldr ..contains startup files like ....(.exe) ...
+Lib ..library files 
+
+Webhooks ..SSH
+if we want to use rest API ...if I want to get info from Jira ...Jira provides end point
+
+
+Linux has internal users until we login those user are admins and manage system automatically 
+
+Sudo ..allow user to execute command as super user 
+
+3 types of deplyoment
+
+Manual
+Time based 
+Commit based 
+  Manual ....Deployment can be done via FS autosys 
+
+Time based ..we schedule crons jobs ..it will run Jenkins also have jobs ..it will fire at particular timestamp 
+
+Commit based ..whenever commit in respository the deployment process has been called
+Webhook used to fire script that commit has been done .. Jenkins will decide it will go for deployment or not 
+
+Logg error ..bottom to top tracing  ..for class check
+
+
+3rd class called by 2 ..called by 1st
+
+Log types ..access logs ..error logs ..debug logs
+
+(Check config) ..command used to activate and deactivate services in Linux
+
+(..list )...command 
+It displays all system services whether they r ON or OFF
+
+version .control.....it takes updated last version
+
+=====================================
+
+t4/reaxt
+ 
+ Any class we r passing inside provider ..state get maintained under stores 
+
+Maps states to props ..whenever state changing ..below.methods get called 
+Map states to props 
+Map dispatch to props
+
+above is Standard way to do.mapping between redux and react 
+
+Redux is kind of internal understanding thing
+
+Dispatch used to call redux 
+Once there is change in properties ..we have provider ..it.keep on checking
+Provider get activated once store some values
+
+
+Dispatcher keep on pinging if any change in state ...it used to check current action 
+
+3 dots (...) ...used to flatten an array
+Whatever properties in props it will pass all properties 
+
+
+Prop{1}
+Prop{2}
+Prop{3}
+
+Pass current ....action ...give new states
+
+Promise .... It returns and check current state of call
+
+Dispatch method is used to convert promise object to data 
+
+We will get data out of promise object using dispatcher method
+
+Relevance of this mapping to props ... syncing state with the props and making call to redux ...here when prop  changes then once state changed then virtual ROM .get changed 
+
+Root reducer ....component for combining 
+
+Parent class ...contain all reducer...root reducer.js
+
+Redux ..saga...think
+Configure store.js ....this configuration is required whenever we add redux related stuff 
+
+Jar is minified version so compression happens 
+
+Compression happens when distribution happens across the teams
+Which gives compiled and static files
+
+
+Webpack contains many more functionalities
+
+Tomcat ..localhost :8080 
+Index.html ..it.is static file 
+Tomcat ...run...then serving at local :8080/index.html
+
+Same case with serve ....cues new gui 
+Convert the distribution project (cues ..newgui) into static code 
+This is kind of way we can migrate ..small code 
+
+So we put static code of cues new gui 
+Into profilegui
+So we added static code of new gui into.profilegui 
+
+Inside proxy ..PAC files 
+How web browser and other user agents can automatically choose approximate proxy server for fetching given URL 
+
+IT people can control whole system without informing you 
+
+head recursion and tail recursion 
+
+2 ways to call method 
+
+One method ..itself calling ..it will be infinite until reaches condition
+
+Top to bottom ...head recursion
+Bottom to.top ...tail recursion 
+
+Init.d ...it's a standard file used to be ther in any Linux environment
+
+Like tomcat we got .exe in window but in Linux we don't get any .exe 
+So we used to put in folder 
+
+Zip folder ..tomcat window ..manually we have to set services via class path etc
+
+But it's kind of Automatic startup used to put in services
+
+Declarative way to set tomcat in Linux env 
+
+Init.d ..put files in folder where we want to automate the services 
+
+Tomcat Bin foldr ..contains startup files like ....(.exe) ...
+Lib ..library files 
+
+Webhooks ..SSH
+if we want to use rest API ...if I want to get info from Jira ...Jira provides end point
+
+
+Linux has internal users until we login those user are admins and manage system automatically 
+
+Sudo ..allow user to execute command as super user 
+
+3 types of deplyoment
+
+Manual
+Time based 
+Commit based 
+  Manual ....Deployment can be done via FS autosys 
+
+Time based ..we schedule crons jobs ..it will run Jenkins also have jobs ..it will fire at particular timestamp 
+
+Commit based ..whenever commit in respository the deployment process has been called
+Webhook used to fire script that commit has been done .. Jenkins will decide it will go for deployment or not 
+
+Logg error ..bottom to top tracing  ..for class check
+
+
+3rd class called by 2 ..called by 1st
+
+Log types ..access logs ..error logs ..debug logs
+
+(Check config) ..command used to activate and deactivate services in Linux
+
+(..list )...command 
+It displays all system services whether they r ON or OFF
+
+version .control.....it takes updated last version
+
+
+
+======================================
+
+t6/cues /
+ 
+ Stunning ..we want to interact with service at client end ..we create stubs 
+
+Enumeration ..by default singleton object can be used /called anywhere
+
+For singleton ..key and value both r singleton in nature 
+
+
+Lazy way intialization ...get created when called first-time 
+Eager intimation ..get created when class get initialized
+
+
+Charet symbol/regex ..they have different significance ...one slash means there is one value after one slash etc 
+
+
+Old jars ..index created ..as repository jar retrieval is much faster ..reindexing of code into local
+
+Kaitlin ..language built on top of java 
+It's very fast ..
+Groovy never throws exception ..works like JavaScript 
+
+Kotlin and groovy are very popular nowadays 
+
+Kotlin... (.KT) files
+Val is like variable in java 
+
+Ahnotificationprocessor ..set of instructors 
+
+Hitting JMS server 
+
+Subscribing publisher ..hitting JMS server if message is received or not
+
+
+Values corresponding to user is refreshed ..then it is going to acknowledge a Boolean value ..true 
+
+Ahnotificationprocessor
+Cuesnotifcationprocessor
+
+Bridgebackprocessor ....updating localdb and if user related data via service 
+
+Cip UI made in react JS going  TO INTERTACT WITH cip war 
+
+React ...everything like button /field etc is a component in react JS 
+
+Redux ..for maintaing state of applicaiton..it is add on component of react JS 
+
+How they will interact with text ..what is the current state ...What is the next state ...it takes help of reducer 
+
+Suppose I click on one link and what is next state that will come from action
+After action ...comes to reducer 
+Reducer is change of state 
+
+Detail entered after submission what will be the next state 
+
+Stores ..when state is changed stores used to fetch data ...it means state is migrated from one state to another so data is saved into stores
+
+Like car given going from one place to another ..so I need petrol to go at destination so petrol is working as input for stores To render data on UI
+
+Every component extends react component 
+
+Props ..keyword ..take value from one component to another
+Render ..method to render but only return single value at time 
+
+
+Render method is compulsory in all components 
+
+Request popup.  Component in react JS for popup
+
+Passing values from one component to another ..we have props ..states 
+
+Vibrifaction 
+
+Force update if snapshot ..maven ..if any beta version is ther ..it.will update 
+
+Selinum one 
+Cues application convert into script
+Script ..we have we drivers /jars which used to communicate between browser and script when we run script 
+Then it will automatically open browser given in jar and open URL then run /test  cases automatically ...mouse hover automatically seen
+
+Creditional based keys 
+U can login and it will check for SSH keys 
+
+Concept of public and private key 
+
+Vi ..command for editing 
+
+We need to tick in mind that is part of change 
+
+Named queries ..are static queries used by hibernate ..we r using in case of complex queries 
+
+Build UI to add resources on the fly...more kind of control.on business side
+
+==============================
+t5
+ 
+ Maven clean ..compile class ..remove target ..check all.dependencies 
+
+
+eclipse:eclipse ...it used to re-arrange the things ...show source code 
+It always look for package structure 
+It will automatically configure buildpath 
+
+
+Jax-ws includes ...Apache axis 2 and wsdl 
+
+
+Product based company ..one swimming pool and you have to dive into.that ..if you won't swim properly ..you will die 
+
+
+Service based company ...load with resources with all technologies ..go to.client and look for sifferne project ..want to enhance ..shift to.new technology ..couple of years on one project and then shift to another project 
+
+Apache axis 1 ,Apache axis 2 ,Apache CSF came into picture 
+
+Servlet context ..when we deploy things ..servlet context even get fires and this get loaded automatically
+
+Python ...machine learning ..AI ..dataset 
+
+Java haven't reached to that level but machine learning and datasciene went so ahead 
+
+To create diagram of project ..think.out of box
+
+Daily stand-up call...sprint 2 weeks 
+
+Python syntax has been developed I such a way that we can use in AI ,machine learning ..data science 
+
+Spring context ..is itself named as applicable context 
+
+In java all files are treated as objects 
+Spring context or application context is container which contains all beans 
+
+At run time ..we execute and get objects
+
+Calling code of service ...is client 
+
+2 means of service 
+
+Service located at other locatioon 
+Or  service located in project itself 
+
+
+XML schema is ..xsd
+
+
+Xstream. ..it is used to serialize objects to XML and back again ..like AC to DC and DC to AC 
+
+Mule ..now it is webservice used for service oriented architecture
+
+Lifecycle of bean ..Intialize process destroy
+
+Any change required at dynamic time ..we can use propertyset method 
+
+Check if value is not assigned it will throw errors 
+
+Entadmin call ..one is delete call and another is save call
+
+Damon thread is background thread. ...only main thread can close Daemon thread
+
+Jms services /queues..based on concept of producer and consumer  
+
+Service is pushing data into JMS and this consuming where other is producing 
+
+
+Cpswebservice ..opened with jdcore ..option in eclipse
+
+Helper classes ...kind of until classes
+
+Region ..is kind of gemfire object which maintain details of cache region for that particular data ..when we try to fetch data it go to.paritulcsr region and fetch on basis of filter
+
+How we create cache  for first time 
+@1 Use our own data 
+@2 Put into cache system
+
+
+Body part in postman  is payload 
+
+End point which is exposed to us which we using that is wsdl
+
+
+Activemq implements JMS 
+
+Messaging queue ..Kafka ..rabbit mQ..active mQ
+2 approaches ..broadcasting 
+Producer and consumer 
+
+
+Active mQ used for heterogenous client 
+Like producer code in java
+Consumer is in python
+
+Kafka don't support distributed system 
+
+Distributed system like bank branches  ..WhatsApp(cost terms are normal like WiFi)
+
+Centralised system ..Core banking system ,ISD calls if we go other country then roaming cost terms
+
+Tibco ..interact with dB / application/mainframe by automatically routing and transforming information in appropriate format to respective destination
+
+Entlib ..central point ...generics way to decouple functionality
+
+Helper classes ..different method ..new change required ..we just change helper classes
+
+
+Kibana ...to check performance of application ..centralised login system
+
+They gave vague description
+
+Pfid can be same for two fund account ..one to.many relationship
+
+Any changes coming from entwervuce to profile logdata ..it get update in logs
+
+
+Cob server ..are small backup instances which can run upto 2-3 days
+
+Befor making any changes ..we r saving current profile into entservice
+===========================================================
+t7
+ 
+ Olap ...provide env to retrieve data from multiple databases 
+
+Oltp ..process data provided by olap
+
+
+Top ...command used to check prices
+
+Informatica... .tibco ....tools used for data mining 
+
+Deep refreshing ..deleting everything from cache and load all data 
+
+Soft refreshing ..based on filter/condition we load updated data 
+
+
+Legacy things works fine ..not breaking any belt 
+
+API ...kind of jar ..any programming language we can create API
+But if you need to interact over internet ..webservice is needed
+
+===========================================
+
+t8
+ 
+ Myfitapp.com
+Gym ..logo feature of gym 
+
+iOS .. application takes 3 days to pu lush onto.playstore 
+
+Cockpit ..admin module ..with help.of this it takes very less time 
+
+Beacons ..low energy Bluetooth devices ...work on Bluetooth technology
+WiFi beacons ..shopping mall..Amazon 
+
+Everywhere beacons are used 
+In gym ..publish push message via beacons
+
+
+Concept to check out forward or backward slash
+
+Path separator 
+Line separator
+File separator ..developer use method to set slashes automatically
+
+Windows ...\\...black slash 
+Unix ..forward double slash 
+
+OSWAP top 10 ..open. Web application security project
+
+Cockpit ..is place where you have access to all the things 
+
+CBS is cockpit where all features r available
+
+Hl7 ...health for.at 
+Ccx .. commercial capture express
+
+
+Selenium ...before and after class concepts ..selenium works on xpath concept 
+
+Multiple tomcat ..
+Like we have multiple tomcat in one system 
+
+
+Cpswebservice ..context ...adding all
+Context of all beans loading dynamically
+
+Means dynamically we r loading Bea s 
+
+Static bea. Intialization ..properties files 
+Dynamic beans ..via program 
+
+
+Version ..maintaining at some.other side
+
+We r not maintaining   parent child  relationship 
+
+At major release ..parent pom.is there ...we maintain release version 
+
+If we do change in pom ..all.child ..whoever using this project will be reflected 
+So it's kind of overhear to developers 
+
+Query builder ..help to build query
+
+Batch ..programming ...running in loop
+It takes all data from dB ..it's in loop that's why we call it as batch 
+
+CPS cues ..perspective ..always service hitting dB to load data into cache
+
+
+Company provided propriety database ...
+Flat databases ...no SQL we call flat databases because there is no rows and tables
+
+
+
+==============================================================================================================================
+refside daily
+ 
+ Cygwin ...used to create Linux container 
+ 
+ Mime mapping types ...like I only allow JSON/XML ...restricting things in tomcat ..web.xml
+
+ Test suite ..it work on relative path mean short path Not absolute path 
+ 
+ DWR ...it is Google library for Ajax calls which now has been shutdown ..basically Ajax calls tjo get data from server and render on UI 
+ Very secured and high performance library
+
+ Chat applicaiton .. e-commerce ..screen sharing applicaiton can be handled by DWR
+
+ NEATOR IS also framework like DWR Struts ...first framework ..it is basically MVC architecture it maps mapping with POJO MVC flow starts with struts Mapping manage in XML which used to handle actions Dynamic forms inside XML
+
+ If you see action name in URL we can say/check in struts Code is written on server side but accessibility is available at client side
+
+ Advantages ...client will.never know which file server we r connecting 
+ 
+ Front store applicaiton ..warehouse applicaiton. ..all data managing at same location DROOLS ..to make ruleset on server side Example ...let suppose application has type of admins 
+ Frontend admin Super admin Backend admin
+ Set of URL ...so I want to restrict the URL on types of admin so use drools to apply filter 
+ 
+ X86_64 architecture. Means runs for both Exclude tag in pom
+
+ RM command ..remove all files under folder 
+ 
+ Poatbuild and prebuild changes can be done via pom.xml and ant.build .xml
+
+ Dbcp is for connection pooling 
+ 
+ Free marker tool ..is an alternative to JSP In serialization and deserialization ..read and write objects 
+ When over network ..request and response object DO.....IF we r using read and write objects and overriding while doing serialization SON Serialization and deserialization we need to save state of object while dealing over network
+
+ Java object cloning using copy constructors and defensive copy methods ..certainly have advantages but we have to explcility write some code to achieve deep cloning Deserialing a serializsed object created new object with same state so similar cloning appprwches we can use to achieve deep cloning functionality Cloning object using serializatio comes with some performance overhead ...we can improve by in-memory serialization and no need to.persistt it in file for future purpose 
+ Unlike the shallow copy, a deep copy is a fully independent copy of an object. . A shallow copy of an object copies the ‘main’ object, but doesn’t copy the inner objects. The ‘inner objects’ are shared between the original object and its copy The problem with the shallow copy is that the two objects are not independent. If you modify the Name object of one Person, the change will be reflected in the other Person object. These kind of things will be defined in XML 
+ XML has concept Cdata If we pass data in any language then it will be parsed .. btw these tags ..syntax error will be ignored
+ Email template will be put in Cdata Generally we out all error message into hashset 
+ 
+ 
+ Generally data handlers are close to service layer
+ 
+ 
+ ==========================
+ 
+ refside
+ 
+ Dataprocess service ... 
+
+Stop file concept ...
+
+Email ack concept 
+
+
+Hikari ...used for connection pooling ...when we startup applicaiton ..it used to create connection at starting of applicaiton ...it will.keep on reusing connections as we don't close connection ..we keep on reusing 
+
+
+
+Create ..cpc3, hikari ,dbcp
+
+Connection pooling library ...no datasource library
+
+=================================
+
+refdata notes 
+ 
+ 3 critical things needed 
+
+Data foundation on CPS we give clients accntd 
+Securities and pricing from ref day side 
+
+We r giving pricing from PMC..end of the day 
+
+We don't give real time price /data because prime finance is broker ..we don't take client order and make changes ..actual order processing is done by us  which include ..trade settlement ..clearing .. reporting ..comission ..profit loss calculation
+
+Let say ..100 Tesla security to buy..go to.broker  and Citi as a broker 
+
+Newyork stock exchange 
+
+What's the best price 
+Who want to sell
+
+When price match happend ..trade is formed
+
+Tesla..... Price we r using 
+
+Last closing day ..closeup business day 
+
+There PMC ..pfref data start
+
+Different stock exchange bonds etc 
+PMC ..does all magic and apply pricing rules 
+What rule should I apply 
+Bitprice...closing price 
+
+
+Waterfall.model...any kind of override 
+
+
+PMC ...send different ranking price 
+
+1 security may have 14-15 different  lines of prices 
+Except matrix system 
+
+Prime use rank one price 
+
+We only capture rank one price and distribute to consumers 
+
+For matrix ..we distribute different prime lines 
+Matrix has own logic to pick and choose 
+
+SOI TABLE S..SECURITY OF INTEREST
+
+Let says 1000 security needed so they will send file via batch
+
+Ref combines all soi and send that back to PMC ...ref proces files and store into staging 
+
+PMC will cut file with price and apply rules and then generate extract
+
+In pricing theory ..zero.price is actual price by default ...we don't set any price 
+
+We as refdata pick rank one price
+
+Dashboard to show batch files .
+Multiple batch 
+Apac batch 
+Delta batch 
+Nam batch 
+
+When all trading done in Australia/Japan market ..then batch start
+
+Similarly when uk London exchanged get closed then batch start 
+
+Nam batch ..when NY exchange closed it/batch start around 11 est
+
+Every trade has to be reported to security exchange comission by law
+
+
+Good thing ...we use autosys ..
+Issue ..autosys ..every job takes 7-8 minutes 
+
+Adding delay...it created bottleneck 
+
+Breakdown 
+
+Java process consume all soi 
+Combines all SOI
+Citi identifier 
+Enrichment ..try to enhance 
+Security ..add all identifier
+
+Dashboard show like waterfall model
+
+SMC ..PMC  model cames in Citi solved many thing earlier every body using this own set of security/pricing 
+
+
+Prime finance is front face to client 
+
+Behind scene ,subledger actual settlement
+
+SMC ..capturing info from secure
+
+Security flow ...pricing is real time 
+Syncup with AMC
+
+Optimus prime ..trading platform for prime ..op call refdata to check in and thwn go to SMC and get info and push to Optimus prime
+
+FTP ..service where it used to keep file
+
+
+============================================================================================
+
+spring hateos/neo4j
+ 
+ In hateos we can directly access model via URL  ..no need of creating controller etc
+
+We get JSON response ..one class handling everything 
+
+Spring competier ...dropwizard  
+
+Spring patching has to be done on open source ..free system
+
+Java paid support is also available in market and available for every other language 
+
+Defacto standard ..QWETY KEYWORD is one of example
+
+Hateos response ..it is self explanatory
+Parent href child href links
+Rendering order of particular user is self explanatory 
+
+Hibernate ..lazy loading concept 
+
+Let say I have employee department accnt info
+
+Object in memory but not rendering all.info
+So.hibernate is used to take care then it will hit database again to load other info
+
+Spring hateos ..self explanatory objects more flexible
+
+Neo4j ..4 level hiearchary ..graphical database ..4 level graph diagram ..it is used in AI
+
+
+CMD ..powershell
+
+
+U asked Amit to apply leave on behalf of you
+
+
+========================================================
+
+spring security 
+ 
+ Spring flyway..versioning maintenance
+
+When we migrate from 1 version to another 
+Flyway ..database migration.tool
+
+Like 7 tables in SIT env and 8 tables in prod
+So we have script to.migrate 
+Checksum /hashcode generated at dB side 
+
+Suppose table structure is different in SIT.AND PROD ..7 TABLES VS 4 TABLES
+
+use repair command to fix checksum issue
+
+Project facets in properties of project 
+
+
+How versioning is maintained ..version migration ..checksum version ..description
+
+Dml have restore points ..that's why we create logs 
+
+Non txna and txn data will.be different 
+Springs used to maintain own txn management 
+Txn mode ..managed by datasource  ...
+Eg ..alter..update delete insert queries etc
+
+Non txn mode.. automatically create itself independently instead of dependent on spring ...eg ...select queries
+
+
+Rollback can be applied via Aop 
+
+Remember feature of creditionals
+Session management ..timeout 
+
+Concurrent session is one the property which spring holding ..cannot login.twice thrice ..like Netflix ..IRCTC .limited to login/screen
+ABC.com/admin
+ABC.com/employee
+Swing support multithreading we have to.implemwnt it 
+
+Other framework handle it automatically 
+
+
+Swing wants all thread in JVM
+ Multithread in swings for authentication ..new session will be created which will create issue ..one user will have multiple session ..that's why we want all threads at same place in JVM 
+So we cannot implement multithreading in swing in simple way
+
+
+Important ..
+
+Developer By default logged in  ...cps
+
+I don't know who logged in my system
+But I added join point to get login details
+Joinpoint cannot be tracked 
+
+Company will never know until it track email of user
+ 
+
+Spring security topic 
+
+Multiple ways to.handle session
+SSO Token 
+User creditiomals 
+In memory 
+Database 
+
+
+Spring secrutiy provided authorisation authentication at joint point level
+
+Secure object model
+Method invocation 
+Join point 
+Filter invocation
+
+Localisation..I want to host  site indifferent countries and maintain samesite across gloabe so we add localisation 
+
+Site in French ..France 
+Site in hind language ..India
+
+Man in middle attack ..some people attack sever to fetch user creditiomals
+
+Authentication at application site can be stolen ...solution ...once authentication is successful we create session token..once authenticated we used to clear creditionals
+
+We cannot delete session token otherwise we cannot handle session request and response 
+
+
+
+In -memory authentication. ...like tomcat
+Users.xml
+Server.xml
+Catilina.xml
+
+Application which show status of application is kibana which is using inmemory authentication
+
+Application context path is like /root
+ Root of application where it is hosted
+
+Deny  by default ...(***). Wild card search
+
+Filteration ..set of filters customize filter chain 
+
+
+Httpresources ...
+
+request response ..CSS...is 
+
+Interceptor filters
+Many application don't allow pdf to download ,in this case we create interceptor ..mention pdf not allowed ..it is called interceptor filter 
+
+Exception translation filter . ...when my application want to translate exception coming then use exception translation filter 
+
+Security context persistence filter ...it clears the details of thread local
+
+Basic authentication filter
+Digest authentication filter
+
+
+Cookie is site based
+If you are opening data by client side 
+
+Remember me. ... Create cookie ..save into local ..private key created on server ...once login it will check cookie available on system ...it.eill send cookie to server from local.
+
+
+Forwarded ip's  are those IP which r bounced IP ..we try to bounce IP from one location to another 
+
+When login ..session token get generated ..2nd page get rendered when we get session token from previous page 
+
+
+1st login ..session I'd 
+2nd login ..otp ..valid successful
+Then we will delete session I'd and another session I'd will.remain logged-in for time 
+
+
+1st session id is input to 2nd login 
+
+Now companies used to give draft ..no session ...
+
+Post call ..and I go back it will throw exception
+
+Neo4 j ...are meant for online txns ..more clarity btw business and developer
+
+
+Corrine Siri Alexa ...Ai implementation
+
+Townhall meetings...product marketing ..citi is thinking to launch ai robot and TCS came to know about this so.tcs came with proposal that we have 100+ employe.e with AI skill set
+Instead of sending 100 employee ..they will send 15 employee to recognize the pattern 
+
+Intially we had no rule related to cookie
+To store any data on client side but now it's rule ...accept cookie rule 
+
+There can be n no of cookies as cookie is site specific 
+
+Opening site from.mobile ..desktop..tab it will.be different and server used to know this information via ((user -agent))
+
+When cleitn request then user agent get auto..attached 
+
+
+Locale is system based info
+Locale is location based
+
+
+DHCP work on static and dynamic IP
+
+Cisco used to provide internal software which provide range of system that software will generate list of static IP
+
+Amazon S3 storage thing over web
+
+Dynamodb ...cloud dB 
+S3 buckets 
+Data storage solution 
+
+Amazon S3  provide soap and rest interfaces 
+
+No ui available ...go via postman 
+
+? Value = ,?URL= 
+Running on local check this point 
+
+
+Flask ..run on version more than python 3.0
+
+Comet ..framework for chatting application 
+
+
+Watchdog ..when we r doing development we cannot restart server everytime
+
+Watchdog ...Linux environment watch dog used to check 
+
+Watchdog used to replace files for hotcode swapping
+
+Sybase is too secure but have performance issue 
+
+Regex ..forward double slash means single slash only ..just an example ...it depends on case by case
+
+For loop ...3 lines
+
+ABC.foreach(system.out :: println)
+
+
+Cache has expiry time ..
+
+50
+
+Data migration code migration ... infrastructure migration
+
+Rollback plans
+
+Rowmapper...internal method of jdbc template ..used to.map.the result data to pojo and return object 
+
+Gemfire ...distributed software system used to maintain cache
+
+Cache is file which is used to.maimtain on server 
+
+Picture ..combination of audio and sequences of images
+
+Cache ..we can extract data from cache instead of making call to database 
+
+
+Extension used in struts ...xxx.do
+
+
+CDN content delivery network through which multiple request can be addressed 
+
+Cabionline ..shopping cart
+
+Religare
+
+
+Poc proof of concept 
+
+Telemetrics .commercial capture express ..it is Most advanced technology ..no one can hack 
+Shopping cart ..txn gone through ccx 
+
+Risk analysis ..bank defaulters on basis of EMi ..able to fulfill loan or not 
+
+Txn database never kept in database ..X937 FILE FORMAT WHWRE WE KEEP BANL TXN DATA
+
+Secure banking ...CBS ..secure banking txn 
+
+
+Modify rating scale ..every country rating 
+Every bank rating 
+Modify KPMG
+Compositors off ..comoff
+
+Crid in CPs == relclient I'd in cues
+
+
+========================================
+
+ribbon client 
+ 
+ One service handling 100 request ..in case it get 101 th request ... It won't entertain it will break circuit 
+
+It will check number of
+
+Once it goes beyond particular request it break circuit 
+
+If rest template r using it has to be load balanced
+
+It used to work as circuit breaker 
+
+ Ribbon use internally 
+ Heartbeat concept 
+
+Instead of server hitting client 
+
+Client register themselves with server
+
+
+====================================
+
+orchestration /tomcat/jenkins
+ 
+ Orchestration basically provides you environment or resource for microservice architecture automation
+ 
+Sort of DevOps 
+
+Orchestration process ..we setup environment what microservice required ..setting up 
+
+LET SAY we are building 50 times in day ...whole day building ...so we have Jenkins to automate 
+
+Starting we used to do manual build 
+Devop profiles ..one team who is automating process ...
+
+All across company ..DevOps team will create small functionality 
+Eg ...
+Git checkout .. 
+end of the day pull ,release pull
+We r pushing code to repository ..hooks are there ..jenkins
+ It used to provide one layer of security 
+ We r not loggim into server ...we are giving to jenkin to deploy.in particular env where 
+
+
+Sonarcube ,fortify ...SCA
+Fast lane , ...android application automation
+Build deployment , automation 
+Application log maintenance 
+
+
+
+
+
+I am running out of work ...you can assign some work 
+
+Sonarcube ...we used to give path 
+
+
+Owasp 10.. standard defineds which defines quality of product ..benchmarks setup by company ..that is the reason we go with SCA
+
+Tomcat/ jenkins
+
+Clear 
+
+
+Tomcat sourcode .... El language  
+Patching will always be on method of classes ..requirement was to implement custom.pagination in jsp
+
+Type of object for which we have to do pagination
+
+List of ..instead of passing from SQL 
+We will pass list to jsp ..
+If we don't want to.make database call again ..if we'were not able to hold database objects so we applied customisation server pagination at tomcat level
+
+
+==========================
+
+
+java mail api/kafka
+ 
+ Mail id 
+SMTP server 
+Authentication 
+
+
+Web server has one important property  called as catch all
+
+2 types of email.id 
+Global.email.id available to outside world 
+Local I'd cannot send to outside world
+
+When email comes it comes to POP3 server ..it check for.name and match name with alias and internally it will be running and send to alias 
+
+POP3 server which wil have catch all functionality
+
+Scenarios 
+
+Pankaj@apple.com and pankaj don't exist in apple so email comes to apple till POP3 server ..server use that email and send email to admin email server 
+
+2nd scenario
+Pankaj1 ...internal email
+Pankaj...external email
+
+1st mapping is to mail id and 2nd mapping is to alias 
+
+Pankaj1 send email ...log generated
+
+Server will check pankaj1 is mapping to something in config file ..once mapping Good it will open firewall and send email to Pankaj and pankaj further send to user ..this is how sender authentication works 
+FTP ..22
+SMTP ..25
+POP3 is post office protocol used to receive email.from.mail.server 
+
+
+
+
+
+Network.calls expect TLS 1.2 .with jdk 1.8..TLS is network protocol with jdk 1.8
+
+
+
+Jmeter 
+
+Binaries ...bin
+
+
+Kafka consumer..it's JMS took
+
+Broadcasting ..producer and consumer
+
+JMS depreciated broadcasting 
+
+Active.mQ..Apache mQ
+
+Kafka feature ..easy to setup ..synching capability... run in cluster..can be setup in distributed env
+
+
+Previously active mQ used to keep.lot.of jars but in kalfka we use stream API for exchanging data
+
+Consumer used to split data into task ...divide into chunks and store in task format
+
+Notification server..ahfrontagent are independent but there is possibility of delay as there is momentic difference when msg receive and consume 
+
+But in kafka we have streams so there is no delay
+
+Producer and consumer don't wait for anyone ..producer produces and consumer consumes because of streaming concept 
+
+1 broker where multiple topics running 
+Topic internal has streams 
+Topics are split into partition and it will r
+ be replicated  across brokers
+Societygenerale bank famous in implementing Kafka 
+
+All open sources starts with org
+
+Open sources ..free version and other is commercial version 
+
+On concurrency ..we need to write down lot of codes so java provides concurrent API 
+
+
+Firebase ...nosql database by Google authentication and authorisation taken care by Google 
+
+Amazon divided into ecommcer ...we services ..telemetrics
+Telemetrics is way to track the way we drive  the car
+They automated via alexa 
+
+When we used to start application we need to check step by step 
+Lot.of connection objects,
+ need to read..allocate some.memory 
+Server load is very hight at time.of startup ...intial data is initialozed or.not as this is the main reason of checking service intially
+
+
+===========================================================
+
+react1
+ 
+ Below.is cip spcefic 
+
+When intialization we used to setup context ..when app get started it used to read content data from context ..
+
+It will create map...key value pair 
+
+XML parsing is fast 
+
+Putting queries in XML and setup in form of key value pair
+
+ Velocity is an API of Apache ..so we parameter passed from UI should be formatted with velocity parameter 
+
+We r generating querie at run time so SQL injection hacks not possible 
+At run time we do multiple joins and get multiple queries 
+
+FTL ...free marker tool 
+
+All intialization files configurations are loaded via query annotations 
+
+
+Mutlipart request ...if we passing file from UI to service or transferring data of several types then that is multi part request Whever file handling...we should handle it very carefully 
+
+
+
+Fuzzy logic /search ..if I am passing string value instead of integer so it should handle both properly
+
+
+ Type referencing ..take any of collection type and do subclassing map ,integer 
+
+Cip ..webhooks
+
+ 2 types of webhooks Commit based hookup Schedule based hookup 
+
+
+Maven is an intermediate agent who.is taking care of compilation using java It basically copy files from source to target ...
+
+if sometime you face issue build not.proper ..then delete target folder Pom...it cannot build files at parent Level ..maven compiler run on source ..it picks data from.source and copy it to.target 
+
+
+mojo ..maven old java object Mutable map ..everytime it create new instance 
+
+
+Rest app...firewall...backend app(cip) 
+
+
+Firewall check.if it's coming from system or not if all certificates are passed it will allow to talk to CIP and check controller request is good or.not then further it go to Dao If going to service then we should ask for requestparam If it's coming from service then path variable 
+
+
+Elastic search is a service running on server ..running on particular location/port returning a object of Elastic search RESPONSE handler ..returns some data 
+
+Search is going to be called by user ..so we should add on if we have to perform some action on search 
+
+Common task related to search is implemented by AOP Cost cutting system ..whenever making a call ..common data is used to get rendered is done by AOp Elastic search ..document type search ..we can access via API ..using API we can search document Router ..router.js 
+
+
+
+Ecosystem ..whereever all.things related to services and application are hosted..it.is called ecosystem
+
+
+ Cross cutting concerns ..are things not related to business logic aop approach .. whenever requirement is not related to business logic then we use AOP APPROACH 
+
+
+ Rc-tree...to.render 4 level.hieqrchaey in CIP 
+
+Cip ..client to server ..we r making Ajax calls Ajax and restapi calls are almost similar 
+
+
+Unix can't run bat file ..where Unix have .sh files Window tomcat ..bat file 
+
+So we using tomcat Unix Whenever dom 
+
+structure get changed it used to make changes with real Dom as well so updated part get rendered Props get updated via lifecycle methods
+
+Props and states are interchangable 
+
+We use state when data pass from top to bottom
+
+We create wrapper class and pass this functionality. 
+
+
+Jag ..java server faces allow web developers to build user interfaces for java server application
+
+Jsf same  as gwt...question
+
+Let say in our  application ..multiple objects are using at some other time ..in case of creating different tables ..we create table wrapper so everything  like formatting etc done at one file .
+
+When state got changed ..redux got called then event will.be fired to check /fetch details from rest API server With response it will save data into.props 
+
+React table ..is used to render on UI
+
+Denounce input ..we use to render value at same time on UI
+
+React ...API called as prime faces ..it contains all components ..it has all components
+
+
+Flipkart lite..0.5 mb application
+
+Flipkart main app ....35mb
+
+One-way is everything is webservice ..we used to create top.level structure ..used to render microsite 
+
+Webservice ..one service  is normal.and other  is microservice 
+
+In bootstrap ..we used to make like similar way so webpage get rendered with same layout on desktop and other Mobile/tablet devices 
+
+Landscape mode 
+
+So we will create microsite ..kind of small.application ..APK file which will render only bootstrap URL...with every URL ..add new parameter to get response from server (which is expected at that point /URL)
+
+IMP..POINT...
+This keyword cannot be used with getstate and can be used with setstate only
+
+With props ..this keyword is widely used 
+
+Suppose there r 2 containers
+React app
+Simple container 
+
+In one html,multiple container can be there (div)
+
+But in react ..html can have only one container 
+
+There can be n no of container ...but one react app will be there 
+
+Containers r not linked with react app
+
+React is UI library ..so how it takes data from server to local ..so component is needed call as redux 
+
+It used to change state and  event fired..once state changed action get activated 
+Here ..we are passing current to next state 
+Next value get from when cirrent task is completed
+
+
+Every state has action defined 
+
+
+Saga is responsible for calling to.event
+
+
+====================================================================================================================
+react2
+ 
+ React ..UI change 
+Redux ..state change on base of action 
+Redux saga ...saga recognize action based on event change
+Response come on saga
+State changed on redux 
+
+Once state change then component get render on react 
+React show up updated value 
+
+Redux and thunk are almost same 
+
+If class .. states and prop both availabl
+If functionality component ..then we r not maintaing their states only we have props
+
+Parent component..should maintain states of its child component 
+
+Burger -app ...JSX is java script XML/html
+
+Waterfall...we are making /customizing on UI side (CSS)
+
+Table wrapper waterfall... Created for CSS purpose 
+
+Input wrapper ..if input not valid ..then it will show error 
+
+Component will recivie props...Get derived state from props
+
+
+Error label visible only when there is error coming from parent 
+
+
+Multipage form ..
+
+These are badges ..on webpage ..we have pages ..1,2,3,4,5
+In case of link ....We can navigate page1. To page4
+
+But in badges we have to go in sequence only 
+
+
+Numberinput wrapper..we r using stores to maintain states at single point 
+Action has original state and next state 
+Kind of number value validarion 
+
+Request entity selector wrapper ..props must be controlled/managed by component owner 
+
+Props can  write only at parent
+=====================================================================================================
+react 3
+ 
+ Lodash ..java script library 
+
+Owasp ..security standard
+
+
+Table owner ..we cannot change row/cell prop values as its child only 
+
+Request entity selector wrapper 
+
+\b ... Zero 
+/g  Global
+
+
+CVE...it's standard of SCA
+SCA standards ...CVE
+
+
+OSWAP...STANDARD IS VERY GOOD  SO GENERALLY WE FOLLOW top 10
+
+
+2 ways to render 
+
+A)Intialize variable inside render method 
+
+B)Put the condition into component and pass the property from parent
+
+
+'Use strict' ..give error  else don't give error 
+
+Searchable ...(typeable as well)
+Searching ...changing state to new value 
+.setstate()
+
+Otherwise it shows null
+
+Type and backspace delete 
+
+Cosmetic changes ..UI arrow on top of drop-down 
+
+Anchor ..like hand on link ..component that work as anchor like color shows R B G
+
+We cannot pass function as argument in angular but it is possible in react 
+
+State resetting is done via reload 
+Timeout ..search request response 
+
+Search ...put last search item into middleware (storage) or local whenever we click it will fetch all
+
+Search data and put into search box ...it like Facebook search
+
+Class component ..has both state and props
+
+Functional component have only props So it.used as child as well as parent
+
+Component will recivie props and children get rendered recursively
+
+
+======================================================================
+react 4
+ 
+ Promise used to take resolve when AXIOS 
+return  prime object ...using promise object we used to check state of object 
+
+Prototype ..it's sort of blueprint 
+
+For checking type of request object ..we are using... instance of 
+
+
+Enumerable ..configurable. ...write ..kind of states 
+
+Change in process ..every applicaiton has to procure tibco server 
+
+Tomcat.  We have run/debug ..we can see status of applicaiton used in tomcat
+
+Command design pattern
+Tomcat tool ...Status ..run ..stop...if I click  on run inside tomcat ..it will start application to run so we are following pattern to start application via tomcat 
+This is kind of command design pattern 
+
+Command and executor patterns are  different
+
+Executor will have action listener  command
+Command will be there which invokes screen
+
+Ways to change all classes 
+Command design pattern ..one class to issue command and one class acting as executor 
+3rd class ..invoker 
+
+
+JavaScript...one applicaiton designed back 
+type error but in latest version is removed 
+All.of sudden it's stop working so whole IP
+
+Class callcheck
+
+
+Type checking ....check online
+
+Binding method in JavaScript like bind(this).  Object 
+
+Cip can be accessed from mobile also 
+
+Stop propagation ..stop executing next methods
+
+Touch keyword is used for.mobile /tablets...so that's why we can say cip can be access from.mobile as well
+
+Prime faces ..overrides all UI components , everything created as UI component and max of them are stateless
+
+
+Drop-down option ..it is used to be key and value pair 
+
+Key ...used to go server for further processing
+
+Option contain key and value 
+Here value is label
+
+Display of label as anchor tag (link)
+
+JSON ...we are stringfying the value ...key value pair 
+
+There is no overloading in JavaScript
+
+Ecmascripts are browser supportable scripts 
+
+Ecmascript is superset of JavaScript 
+Like sometime browser is version 10 and website don't support browser version 10
+
+Component will recivie props 
+We use next props if there is change in prior and next props we used to reload
+====================================================================================
+
+react5
+ 
+ JavaScript ..strong language handle many things at client side very effectively
+
+We can make event handlers for.keys 
+
+
+Date calender ...in java ...once u r selecting data ..need to fire event ..so that event was not there ..so due to which they changed their whole API 
+
+Default implementation ...companies are providing open implementation which basically override default implementation 
+
+Drop-down is like by default ...1value selector 
+Later on ..2 value requirements etc
+
+
+==================================================================================
+
+collection framework /RMI/singelton
+ 
+ Before java 1.1 we treat everything class and make object in form of key value to get map.behaviour 
+
+Many problem occured lengthy code too large byte code array index bound exception etc 
+
+
+Fail fast and fail safe iteration 
+Fail fast will give exception
+
+Fail safe - if I iterate any collection while integrate any collection it won't give exception 
+
+Collection interface extends iterable 
+
+
+Most of the application stop support system when upgrade is because libraries get new features and old get depreciated
+
+We do depreciated to support backword. Compatibility
+
+ We don't exclude  clases in library from any language 
+
+
+For while for each are fail fast loopers
+
+
+Basic iteratior in collection is fail safe 
+
+Failsafe are used in multithreaded environment
+Share market companies 
+
+Changes going rapidly where map storing current values and if map don't get updated values 
+
+Consider 2 options 
+We updated map object and there code will fail because updation and retrieving at same time 
+
+We don't update then u r old map.object 
+
+Option option won't work
+
+So in this case  we will use iterable as its failsafe  and we can perform updation and retrieving without any exception
+
+
+Class implement interface 
+Interface 1 extends interface 2 
+
+
+Interface use when we have to deal with unrelated classes eg we use default implementation of connection objects 
+
+Sample create connection ,subclass as query class ..we have to make connextio. Before query so we use multiple times and we don't create connection object everyone 
+ 
+
+Browse means extends ,, add implements in eclipse 
+
+
+
+Functional interface --- almost 1 abstract method 
+
+Interface ___ any no of abstract method 
+
+Marker interface --- or tagging interface ...it has no.methods ..tells to.jvm.about more info like bookmark etc 
+
+
+Default capacity of arralist is 10
+When it consumes 80% Araylist will grow automatically
+
+
+Serializable , clonnabble is marker interface ,fail fast behaviour of iterator 
+
+
+In case of index based operation ..go for arraylist
+
+Vector is similar to arraylist , 
+
+Specific implementation of iterator is list iterator 
+
+Iterator is forward only but listiterator is forward as well  as backward 
+
+Serial version UID is serial version identifier and it is used when doing serialization or deserialization where it checks type of object 
+
+
+Convert Set to array == toArray()
+
+List = new arraylist()
+
+Hashset is an implementation of hashmap
+
+The Spliterator interface, introduced in Java 8, can be used for traversing and partitioning sequences. It's a base utility for Streams, especially parallel ones
+
+
+Load factor is used to be part of performance
+ We used to calculate time complexity as we have lots of memory constraints
+
+Headset navigable set
+
+Internally tree set use navigable map
+
+
+Hashset use hashmap
+
+
+One JVM can run multiple application ---a 
+
+
+How to create singleton object on multiple JVM ...only way out.is to.mark one singleton object ..if object is already present we have to stream it out 
+Otherwise search for another instance  
+Then it will pass request as stream 
+
+Objects now all are running on JVM
+
+
+We have commands in OS to check how many JVM running (jps from bin folder )
+
+
+
+Serial version UID   
+
+Class is serializable or not 
+
+Parent and child relationship
+Primitive objects are automatically serializable
+Non primitive objects are those which we need to serialize 
+
+
+Omit means exclude or leave out 
+
+
+
+Serialized object ..if we take in local it will be in streams like for local we can use read and write objects 
+Objects into stream where we have to use write objects 
+
+But on transport layer we don't use read /write object ..there we use request and response objects 
+
+
+Remote method invocation ... Client and remote server (we don't know where it's running )
+
+After RMI ..soap get instroduxed 
+
+Soap is platform independent wsdl code ..it can talk to any application ..XML java dotnet
+
+But in case of RMI suppose one class which is available on remote machine ..and if I want to execute code on remote machine which is exposed publically so I can use RMI CALL only
+If aware that Rpc cALL.IS EXPOSED 
+Class name method name using these details ..I will.gwt details/output from that class via network so few feature make it more secure 
+Calls get executed at remote JVM  in case of rmi
+
+Skeleton is on server side and stub is at  client side 
+
+Soap don't have things at server side like skeleton
+Gwt is RMI calls
+
+
+Soap -- jax-ws
+Rest--- jax-rs
+
+Soap calls get executed on tomcat/weblogic
+
+Gwt/RMI.calls get executed on  remote jvm..there will be no server like tomcat/weblogic
+
+
+Rmi is more secure ..in soap we can create stubs at client side 
+
+
+Tomcat server in local ..per request consumes memory ..perdownload /per request. Which is load testing
+
+Like 4gb server ..how many request we can handle ..on basis of that we configurr load testing
+
+
+Hashmap 
+
+
+Map usually Act as bucket of bins 
+
+Multivaluemap spring ...
+
+Hashmap collision...two objects having same hashcode but values different
+
+====================================================================
+executor framework 
+ 
+ Earlier we used to creat threads via extending thread and runnable so
+Difficult to manage native threads because memory consumption is high 
+
+
+So executor framework used to create thread pool of particular size 
+
+Cache thread pool ..which will have fixed no.of threads 
+Short line threads ..used to fork if system has less thread then it will create new threads as per requirement
+It will keep on creating new threads if process more threads
+
+Context loader .  Listener ensires dispatcher servlet loaded properly or not 
+
+Weadmin tool/CPS/cues ..it is responsible for adding/ deleting API users into.api
+
+React JS works on top of npm
+Intial state
+Final state 
+
+Component r getting divided into small components and that small component can be placed anywhere and call service
+
+Everything made as dynamic and made modular 
+I pass property and based on property ..things get rendered 
+
+ I can mix react JS between html and JavaScript so putting dynamic code into html so kind of making html.dynamic 
+So basically adding dynamic contents into.statix html.code 
+Call one component under another comonen t 
+
+Currently if I have to do operations on table ..then I will.iterate whole table in order to.get one id on.UI 
+
+But in react JS ..when we clic on button we have designed in such a way then on click of button we get Id and then via service we can do.operation 
+
+AXIOS API ..all rest calls via AXIOS API r easy
+
+AXIOS is used for creating rest call..which call microservice and do backened update
+
+Redux using AXIOS to syncup state change into frontend and backened 
+
+
+Like JVM provides environment to java 
+Similar way npm provides environment to react 
+
+Npm start 
+Npm install
+
+Java mission control 
+U can check beans created 
+Events created /running 
+
+General point 
+Check maven dependencies
+Check deployment assembly
+Check other jars
+Resource missing ...check in pom/application properties
+
+(.) Means Unix current directory 
+
+Instances of applicaiton context
+
+Support guy ..if process exist ..process running else no exist means process not running 
+
+Concept
+When we join multiple tables in hibernate we use criteria ..we also use for single tables 
+
+Enumeration ...list of names constants 
+
+Cache URL ..public cache and private cache as well
+
+
+Command design pattern ..it is used to decouple sender and receiver objects 
+
+Blocking queues in multithreading
+
+
+
+Protobuff ...it's Google library which is used to generate sort of buffer to BO (business object)
+ Another definition of protocol buffer ...protocol to enable serialization and deserialization of structured data between different services
+ 
+ 
+ ================================================================
+ 
+ 
+ aaj
+ 
+ tectia ..java api  
+
+log file from remote swrver via java code and out into particular folder ..once it is located we will reqr that file and search required content 
+instance of ..is comparison operator 
+
+jsch ..user name pwd to get session
+.ssh .
+1st way  .we used to create session private key and public key
+2nd way is to create session via user name pwd 
+
+
+sftp progress monitor ..we can check to monitor file transfer progress
+batch move...for downloading multiple files
+
+download multiple files using ftp via java 
+winscp is a windows based so we used batch
+
+tectia is linux so we are going via java api
+
+
+beans lifecyle ..we used to 
+
+applocaiton context is more advanced vrsion of beanfactory 
+all.beans get laoded into aplicaiton context ioc ar time of startup and where beans get seggragated as we have beans differentaion..like singleton ,,session ,protype
+
+
+chaning concept ..one method get executed following other method execution etc 
+1->2 soon 
+
+
+when we parse values into java ..no case of value coneverted in java but in grails we have value contverted so it will update( : )everywhere
+
+=======================================================================================================================
+
+aaj1
+ 
+ tectia ..java api log file from remote swrver via java code and out into particular folder ..once it is located we will reqr that file and search required content
+ instance of ..is comparison operator
+
+ jsch ..user name pwd to get session 
+
+.ssh . 1st way .we used to create session private key and public key 
+
+2nd way is to create session via user name pwd
+
+ sftp progress monitor ..we can check to monitor file transfer progress batch move...for downloading multiple files 
+download multiple files using ftp via java 
+
+winscp is a windows based so we used batch 
+tectia is linux so we are going via java api 
+
+beans lifecyle ..we used to applocaiton context is more advanced vrsion of beanfactory all.beans get laoded into aplicaiton context ioc ar time of startup and where beans get seggragated as we have beans differentaion..like singleton ,,session ,protype
+
+ chaning concept ..one method get executed following other method execution etc 1->2 soon 
+when we parse values into java ..no case of value coneverted in java but in grails we have value contverted so it will update( : )everywhere 
+
+DdL ..data definition ...new colum. Addition Dml ...trigger insertion ..updation If we need source then give path of source folder or jar 
+
+
+Remote service ..we cannot debug remote service also we r connecting through Hessian service 
+
+Spring:boot:run Building project is always necessary when branch switch 
+
+80% of energy should be consumed from solar panel 500-600 pretol pump Plastic waste ..give small balls Per ball 50-70 paise Gov planning to reduce consumption of diesel to its alternative to run trains Healthcare school colleges Temples 
+
+
+Agileetholody Retrospect meeting at end of month Any sprint going on ..if spill.once happen then unable to complete task by deadline then it moves to next sprint Sprints work on stories
+
+ U can take care of any story with higher points means story complex 
+
+Kanban board ...Jira tracking system Intially we use few tables ..later stage we used to.shelf those tables ..
+
+ Primary and foreign key constraint s so we need to insert constrains ..whenever any change in table then modified data get updated
+
+
+ Incremental backup ...suppose we taken data from.prod last week it will create restore point next time we r going to take backup ..it will take data after restore point Modification +incremental 10+10gb It will touch only 20gb data and use same dump created last time
+
+
+ Admin services ..persist operation Finder services ..get operation 
+
+
+Who tells which jar is good or.not ..kind of UI Jndi we use where we have to manage datasource at server end Jndi..dB initialisation connection objects Before jndi we create connection objects ..query fire ..we used to get zero resultset given database are down so it will throw exception/error when query the database So solution ..when app start up then we connect to datasource ..drawback ..database connection is permanent so it is made as an overhead...so we make connection pool .. 
+
+
+When app startup jndi.get intialized ..it is defined in web.xml ..we used to define jndi config on server side and jndi.name on applicaiton When applicaiton started it will lookup for jndi at server side As every server has one file ..general.concxept
+
+ Then it will fire validation query ..once validation is successful then it is used to initialize jndi object ..that's why we check on logs 
+
+
+Moqui framework ..more than 10,000 download of this framework 
+
+PMC.managers are those who work on open source ..he knows in n out of the application 
+
+
+Difference btw cache and dB count then we build cache again We fetch data from.cache region ...cachemanager is resultset Cache data region ...constraints condition created in java class...check in cache data source In distribution system we used to set configuration After that distribution and cache factory We get cache/gemfire object ..it is database connection objects
+
+
+ Teller services ..front officer services Cues application specific Database ..query are there 2 datasource ...cachedatasourceproxy dbdatasource ..dbdatadourceproxy cachedatasources Dispatcher is intialized by spring servlet container ..inside that context ..big bowl ..all beans get initialized Pointcuts in logs 
+
+.we can see 
+
+Request decompression. (RD) RESPONE COMPRESSION(RC) 
+
+UNTIL autowiring is not completed properly ..then we will not be able to use parent autowired object Class a is depending on class B Spring will.not intialize class A ..it is done via autoproxy 
+
+At time of request decompressing objects and at time of response ..compressing objects so it consumes less bandwidth Compression and decompression ..we have to apply keys to get real objects 
+
+
+======================================================================================================================================
+
+
+aaj2
+ 
+ Bare soap services ..are those where we don't follow any standard ..cxf include stub skeleton ..if we use soap service with application then we use length wise response and request will be defined 
+
+Fork ..when 1 txn is dependent on other like credit and debit
+
+2 threads initiate at same time 
+If anything fails..then debit thread is being forked with credit thread 
+
+
+Document should be clear crystal
+
+Ping directory .. identity management 
+Session data 
+If we put 1lac users in session it will take around 2kb per user so total memory used ..2byte *1lac so it's big hit memory which makes memory down 
+
+Ram memory should be used by system not data so for that reason we use ping directory 
+
+Vue technology 
+Mostaches
+
+Mail template
+JSON ..Jackson tree model
+Object to object then at last breaks into key,value pair 
+ 
+JSON maps into values ..there r 2 ways 
+Automatic ..spring used to take care 
+Manual ..JSON mapper while setting up data ..we used to parse object mapper
+
+Product owner ..used to tell automation will reduce operating cost or.not ..sit with technical team ...like there is much main efforts 
+Backfill..existing resource called benchmark
+
+Technical architect ..which will decide this much human resource needed 
+
+Kick off meeting in agile ..
+
+Fixed budget projects ..contract projects ..this much changes yearly 
+
+Variable budget project ..any erro comes we have to fix 
+
+Aem tool..easy to.learn ..niche technology
+Sap hybris ..e-commerce platform technology 
+70. 80% of companies use sap hybris ..it's an e-commerce technology 
+
+Blob store ..binary log takes more spaces as compare to integer 
+
+Images ..100kb binary data going to store in dB 300k-400k equavlient to 150k record in table
+That's is why we don't prefer blob data into dB 
+
+Pdf is getting stored in bytes as we are not reading not doing any manipulation
+
+Eovs ..end of vendor support
+
+If application process writing something 
+Did ,logs etc require enough space that we move to.NAS
+
+MESH ROUTER ..which is used to create connectivity all over hours 
+
+Message object ..we will get text object out of it 
+Text object will contains XML in string format
+
+No.implementation ..so.aspext using 
+
+
+Parent of  every call.is Ajax only 
+
+In cup world .we r getting data from CPS via elastic indexes
+
+SOlr ...it is sort of server which maintains dictionary eg .. newspaper ..let say I have to.search (name xyz) in all.newspaper of last 4 years ..so it will run algorithm ..midn of crawling will be there ..content used to crawl
+Index ..subindexes ..sort of manual crawling 
+
+Licence and solr ..same thing
+
+Hashcode and equals  
+
+======================================================================================================================
+
+
+aaj3
+ 
+ Comxept.of hashcode
+Ifequal ..nothing to.update 
+Hashcollsion ..then we do bucket 1->box2->box3_>
+
+Contract between hashcode and equals ..if two objects are equal then must have same hashcode ..but if 2 objects have same hashcode then may or may not be equal
+ That's the reason we implement both 
+U must override hashcode in every class
+Then override equals()
+
+But, it is not necessary that the hashCode() method will return the distinct result for the objects that are not equal (according to equals() method).
+
+Hashcode returns integer value generated by having algorithm
+ purpose of hashcode is to provide numeric representation of an object
+
+Different objects of same class will work without hashcode 
+
+Shallow equal..checking reference of objects 
+
+Deep comparison..we used to compare values of object
+
+U r bugging me like anything 
+I cannot work in micromanagement 
+
+In react ..when dom structure change then only that part of dom change not whole 
+
+Complex algorithm running in background which will get captured 
+
+Anywhere if we have bulky data either cache/ram ..we can create indexes
+
+
+Hashmap can maintain million of record ..it is using inbuilt indexes
+
+Any technology internally it is maintaing indexes
+
+In java application like txn applicaiton end of month having high load 
+
+So only for one day we maintain server for load ...only solution is we create dynamic server 
+
+Dynamic memory allocation...we used to run VM SERVICE which check load on server 
+
+Print service ..which takes data fill-up data into templates and send that to print server 
+
+One user recivie daily statement a d all of sudden user requested statement of January ...that services used to create indexes
+Everytime it cannot go to.server (document server central)
+
+
+Finale designed by Infosys 
+
+Checked ..compile exeption
+Unchecked ...runtime exception..class ..file not found ..numberformat ..SQL..connection
+Why we extend runtime exception because we want to.handle runtime exception
+
+E-commerce want to start ..if employee size less open source then use PHP technology
+=========================================================================================
+
+aaj4 
+ 
+ Cygwin ..provides interface 
+
+rpm cannot install on windows
+
+
+Stress testing ..we usually put load on server 
+
+Rpm is exectutable but run only in Linux not in windows ..we can get are in windows but run 
+
+
+
+, just because JSON is currently the most talked about due to its association with JavaScript and extensive support across different languages and platforms, you shouldn’t completely disregard XML. 
+
+Monolithic app ..we used to maintain states at server side 
+
+TCP ..stateful protocol
+Http protocol ..don't have its own state ..it's stateless protocol ..it's 1 trip session which is request and comeback as response 
+
+But in realtime we have multi request and multi response ..we used to maintain token based authentication system 
+
+
+How locker used to work 
+It will check key authentication
+Banker will ask locker no 
+One key with Banker 
+One key with consumer 
+Both keys applied on locker
+Banker is authentication server ..it will check in header  token key ..it will redirect further 
+
+JSON will travel through network
+Which is basically key value pair 
+Process JSON and return JSON serriable object 
+
+Lamda expression ___.   ::
+We r getting data from AMC
+
+@QUALIFIER ..suppose ther are multiple instances ...it is used to pass if different services and interface implementation
+
+To facilitate your timeline .we have done changes 
+
+
+Webservices have multiple versions ...v01. V02 etc and all.jars are available in artifactory
+
+
+..txt file cannot converted to.pdf because pdf structure is little different 
+Way we used to create pdf is different 
+
+CSV is comma separated file 
+
+Pdf to txt not possible 
+
+Endpoint deployed to server but client don't have visiblity
+
+Some.companies used to maintain endpoint version we used to share client version like www.citi.com/v1
+www.citi.com/V2
+
+
+Generally different implementation of interface 
+
+Autowire the interface not class
+
+ABC handlers.
+
+
+Producer and consumers ..we won't have producer details we will have topic info.details 
+We are connecting to consumer topic
+Topic design happen at JMS server
+
+Want space in JMs via topics
+
+Recursive call ..same method calling again 
+
+Lazy loading at database side ..via hibernate only
+
+
+Services have been stopped gracefully
+=======================================
+
+aaj5
+ 
+ Flask ..microservice architecture framework used to create sort of rest api like in spring tomcat is integrated Same in flask we get environment and development in python 
+
+Requirement.txt is pom.xml manage.py is like properties config file at java side 
+
+Pip in python is like maven in spring /java 
+
+Every module have its own init file
+ Any python file can have any no.of classes Jacvaatacktrace ..fully thing we get We used to.define route for API calls But in python we don't get whole stack trace Blue print Concept ..our application object is created from object of application context Same way we can hacve object of applicaiton using blueprint 
+
+Decator is similar to annotation in spring At evwrylevel we have interfaces in java Similarly we use flask here Pycharm ..ide ..python 370 installer like jdk
+
+ I am flooded with API request ..via flask 
+
+we can stop this When we. Say service is loaded now ..??...any service will have load on startup ..server start and request accept/serving is different ..some services got executed on 1st call Server/service can be assumed as started 
+
+when it will start accepting request Hibernate queries..mapped URL path is part of spring intialization When we store values in sp or update in sp ..sequence is maintained in sp 
+
+Thumb rule ..any error in logs ..check depencies /jar missing in claspath ..find location of jar via Google and out into.clasapath 2 servers comes when download a) Yes or no ..attachment B) inline... tellings to.browser 
+
+Everyfile we get data in form.of row like checkbox, textbox so iterating one cell..one row Eclipse logs also ..there used to create lock file .lock file..must delete if eclipse hanging
+
+
+ Retention policy ..at which point we define annotations to be discarded 
+
+Favison.ico..image of Citi in cps projects Txns logs get maintained ..backup so it's easy to Incase of rollback 
+
+Qtp482729929...kidn of thread 
+no 
+
+<Target>  X <target>
+x  above ..It means they r expecting java version of 1.8 in source and target Aux ..auxillary ..in react /java we cannot return 2 values so what we do wrap into objexts ..class ...auxillary Dom ..on.top we have html head body ..suppose want to return head and body both ..so for this purpose we wrap on top level.hiearchary 
+
+In react ..sometime we return multiple tag need to be returned so key word is HOC /HIGH LEVEL direct 
+
+dependency ..in pom.xml 
+
+Indirect dependency .. dependency in other components
+
+==========================================================================================================
+aaj6
+ 
+ 2 ways ..sending email with attachment
+
+Sending email  and attachment inline but java don't support 2nd option
+
+Email sent ..URL +one id
+
+URL opening ..one image 
+
+It will.hit server when image get rendered ..so it will hit the service /server 
+
+AI service ..every company publish quarterly /annually report 
+Format is different of every company 
+
+When we are creating new file .it.will replace existing file 
+
+2 files with same name is not allowed in.explorer
+
+It will.be good to have bit hike  
+primary concern is to be in US ..VISA 
+
+Soft delete ..disable 
+Hard delete..deleting row
+
+
+All files in maven-repo ..all jars get updated and create hash 
+
+In almost in 1 yr I am  comfortable in cps/cues 
+I am.capable of handling issues  with help.of team
+
+Multiple things to.learn ..as I never worked in get but it was a great exposure
+When I joined many things were going on ..it was great 
+
+If there is an area of.improvement then pls.let me know 
+As time is passing I want to stabilze somewhere so I am thinking to stwbilize myself in Citi ..I am.not.feeling stable anywhere 
+
+It was first time when I went through 2 migration in my 6 year career  
+Specially 
+
+After 5 years ..I should be able to handle more projects ,new ideas ..till 1year it was kind of learning phase 
+
+I.will.be in good position to handle projects independently
+
+I.should be able to offload some work from.china side 
+We have very.high dependices on China side so there will be less lag
+
+Build project ..nesting problem...buildpath ..linksource ...add src/main of project 
+
+When CFO request session is created ...
+Let say Session time ...30 minutes .. at 29th minute session will be renewed for another 31 minutes 
+Token validity is expired ..we r trying to forge token 
+
+What is the appraise cycle..rates can be revised or not 
+
+
+
+Context path ..part of root folder
+
+For every connection ..we can create txn manager 
+
+Local txn ..user intiated txn are local like sign-up ..save ..persist
+
+Global txn ..executed at application level
+
+Both server r different 
+Webpack server ..ui ..react
+Tomcat ..backend 
+So  need to go for different deployment 
+
+CIO ..first build cipui after that it create backend build then copy directory of minfied version of JS folder into backend code of cip
+
+
+React has dom  structure and it's just library not following MVC architecture
+
+Let is advanced version of var
+
+Ecma6script ..ecma -62
+
+Ecma is standard for scripting language like JavaScript ..JScript
+
+Mostly war get picked from target 
+War is deployed in Linux
+
+Not all classes from target not get picked 
+
+Bearer token ..after login ..for further request we have bearer token 
+
+
+Monolithic..session maintain at server side 
+
+Microservice ..token based is ther which is part of header 
+
+Default behaviour of CPS
+
+Cgmi ...on
+Cgml...off
+
+If user not exist in CV then create as group user 
+
+Cgml ...require settlement instructions 
+
+CPS report all queries generate dynamically
+
+Reflection ...creating /cloning object at other side so we can't copy from client to server .. modifying behaviour of class 
+
+
+Client run on JavaScript ..properties we can't take on client side
+
+==================================================================================================================================
+aaj7
+ 
+ Bitcoin runs on Blockchain technology 
+Raspverri pie gets heated up as it's microcontroller 
+
+Overlooking ..concept where we can utilize our system till 90 to 90% 
+We cannot use 100% capacity of system 
+Until.there is zero gravity concept
+
+
+
+If zero gravity ..no.energy loss we can use that energy 
+
+We used to keep server inside oceans 
+
+Microsoft already implemented ...no water leakage 
+
+Eg ..take fossil water proof watch 
+
+Sugar mill ..it goes through whole process ..sugarcane jaggery 
+
+Residue left ..used to.make.sugar 
+
+Energy generated during burning of residue ..water generate steam
+
+Server should be kept in minimal temperature 
+
+Microft Facebook Cisco server have low energy cost 
+
+1 laptop take 40-50 wattpower
+
+Is any heavy program
+CPU usage high ...multiple thread 
+Thread 1 ...data taking from.harddisk
+Thread 2 ...sequential data 
+Bit and  bytes 
+
+
+MP3 ..sequence of bytes 
+Stream ..keep on reading ..thread1  running internally
+MP3 application..one thread running by consumer 
+Thread 3 ..taking data from datasource
+
+
+Raid disk .. these r on demand hard disk
+Which requires no change to existing 
+
+Server ..2 types 
+
+Application server  like CPS /cues 
+Data server ..like log server ..storing data into hard disk 
+1 server having 1tb hard disk space 
+Swap space 
+
+Every applicaiton create so.mnay logs so there is shortage of space in directory 
+So.we can  raid hardisk to existing one
+ On running system 
+Means we don't need to stop/Make application down  in order to.make this hardware change
+=========================================================================================================
+aaj99
+ 
+ -e package rpm
+
+On Goals of pom.xml
+
+Memsql ...load data into memory
+
+
+Filwatcher concept....ready/ack/bkp 
+Fail succrs
+
+Npm webpack
+Npm install webpack
+Npm webpack build
+Webpack config.js ...make it false 
+Index.js is starting point in react 
+
+
+Truststore ..it is the keystore that contains public key certificate of external host you trust
+
+
+Cxf ..check online 
+
+Apache grovvy ..it's dynamic language ...but at maximum places we use it as scripting language 
+
+Grovvy can be used as programming as well as scripting language 
+
+Grails ..validation is also easy
+In cip world..we r using it as validator 
+
+System is in prod and after time we come to.know one more validation needs to be added until I restart server I cannot add in applicaiton context 
+
+So they added scheduling 
+@rnablescheduling 
+
+One change is done and scheduler is complete scheduler will load XML again so changes will be reflected
+
+Grovvy is scriping language so need to compile again 
+Grovvy ..dynamic loading XML
+So scripting folder get uploaded into server ..it get compiled automatically
+
+Java ..need to compile/build again for any new change 
+Grovvy ..directly we can use grovvy file ..so compiling and running at runtime
+
+Pfcpsa1u...It is not restricted location like flat file
+
+Fork ..a thread is running and want to attach another thread and check one thread task is completed..sort of synchronization call
+We will fork existing running thread and other thread execute 
+Create thread pool...size of 4 ..once all threads get consumed then it will create 10 threads from fork join factory 
+
+
+Static bean ..we defined in XML @ bean 
+Component scan package it scan all packages but sometime we don't want to scan all so use dynamic bean 
+
+Dynamic beans 
+
+Dynamic bean ..at time of server intialization ..it gives error ..if any property miss 
+
+Struts ..how exactly it used to work 
+Strut is a Framework developed in MVC architecture
+
+
+Composite primary key is not supported by JPA
+
+JPARepository<t,d> ..bare methods
+Hashmap ..1key value pair
+
+F12 ..200k under network 
+Huge web traffic is there from single IP
+They used to block IP by applying filters
+
+Requesting 
+
+
+Grand authority concept ....roles and authorisation 
+
+Principal objects in cues ..it is an object of grand authority  
+
+Filter chain ...when we used to filter
+One after another ..filter chaining concept 
+
+JSON ...key value pair
+Bison ..key,value, type ...used for mongodb 
+
+
+How we r handling exception in spring boot applicaiton
+we r using exception handlers
+@exceptionhandler
+
+For every controller layer ..we used to have passing value from controller to service layer ..instead of passing directly we use adaptor
+
+
+Instead of putting 2000lines of code into service layer ..create intermediate adaptor ..and  put code into it 
+
+Dozer mapper ...copy data from object to another object recursively ...I want to copy content from server to local so dozer mapper comes to picture 
+Like ..suppose 50 line of code ..we will not copy 50 files from server to local ..instead we will create interfaces to hold properties ..so  we  can pass value from service to target 
+
+.P12 ...domain specific certificates
+
+
+
+Ctrl+home...top
+
+====================================================================================
+
+modern deployment 
+ 
+ MODERN deployment 
+
+Production deployment ...
+
+Once tested in uat..we use that uat tested deploy in production
+
+New story ...
+Generally VM and instances run ..buildnumber ..and we go to deployment via shell script 
+
+But.now instead of deploying different version we deploy 
+
+We will use same uat and build in different machines (IP change movement)...whole machine is moving so no environment issues
+Hardware and software firewall will.keep it as 
+
+VM sort of machine ..once they move to.particular env ...VM are self start themselves 
+
+If any issue comes in one env ..u will drop the instance ..earlier we use OS memory wastage ..system-vdi-os-deployment ...4 layer of memory consumption 
+
+Vdi concept is almost removed 
+Small application 
+Cisco ..we r using 
+
+Bitlocker __ security ..until we r providing security data is secure 
+
+Nowaday Once u start cisco application it will be blankmachine ...via internet we get Virtual OS ..virtual software 
+
+
+When I work with preprod /uat  family..we can disclose things internally 
+
+I want to maintain secrey (client facing application) when it comes to PROD
+It should be password protected 
+
+
+Prod deployment ...we have separate room ..war room ..But nowadays they give blank machines which invokes modern deployment invention
+
+
+==============================================================================
+
+microservice patterns
+ 
+ Decompose DS
+Strangler D's
+Saga DS
+
+Saga pattern ..breakdown txn into multiple steps ..if any car txn failure used to trigger failure txn 
+If it's success move to second step
+Cammunda is a tool which used to design the workflow
+
+It will make graphical modeling ..it maintain data consistency
+
+Saga DS is used to implement txn that spans  multiple services
+Each service in saga performes its own txn and publish an event other listen to event and perform next local txn 
+
+CPS cues use event based system no workflow
+H2 database is in-- memory database in java 
+Saga keywords used to define action /steps ..saga break into activites
+
+Cammunda ..workflow system what should next step/action
+Springboot has by default hikari datasource 
+
+When heavy data and bulky process we don't for BPM cammunda
+
+For realtime scenarios we use JMS queues kafka
+
+Txn based system where anywhere fail..we generally use Saga
+
+Trip booking system ...saga
+
+Decompose dp..by business domain
+
+Order service payment service ..shopping service
+
+Strangler design patter. ..some part will be monolithic
+Montholitic ..single container we deploy whole application ..disadvantage ...one thing down everything down..no multithready coding as server is used to handle multithreading functionality
+
+Server runs in env called ecospace
+
+When environment then all intermediate services will be down ..cob will.handle this thing and intermediate service won't get down
+
+
+
+Service A connecting to service B via TCP.layer ..requirement for updating firewall.. services will be down an email notification sent to consumers 
+
+Prod server traffic is going via LB
+One instance of prod down ..another instance of cob will.pick it  devops script are there
+
+
+Blmpn
+XML r user-defined before generating we should define rules ..client and server will replace the xsd then only we can validate the data 
+
+Kubernetes ...automate deployment ..scaling operations of container based application across cluster of nodes 
+
+Kafka way of  message dealing is different as comapre to.jms queues 
+
+Cammunda ..for everyflow there is a boundary of events
+
+
+Vkey is securest way of creating token in world 
+
+IAM..IDM
+FORGET ROCK CYBERARK
+
+
+Spring cloud Netflix 
+
+Discovery server ...100 ..99 actual  +1 itself discovery 
+
+7 services running on discovery server ..internally 6 service and 1 is Eureka service .
+Eureka server cannot discover itself so discovery server will be used to register with 6 services
+
+Discovery server is part of.netflix
+
+
+Spring cloud data flow ..an integration API to integrate API with client application seamlessly like the way PayPal.used
+Broker sometime a intermediate service ..we don't want to.disturb client ..
+
+
+==========================================================================
+
+notes
+ 
+ Query parameters 
+query parameters are used to sort/filter resources. On the other hand, path parameters are used to identify a specific resource or resources. You can't omit values in path parameters since they are part of the URL.
+
+Query parameters .can.  see in URL 
+Path parameter can't see in url
+
+Beaded token on service access ..type of authentication
+Header ..channel ID content type
+
+Swagger is API for easy  documentation used to provide by BA
+
+Curl for making http request without a web browser
+cURL is basically used to transfer data using Internet Protocols for the given URL.
+
+Curl is a Client side program. In the name cURL, c stands for Client and URL indicates curl works with URL’s.
+
+The curl project has a curl command line and also a libcurl library. In this article we will be focussing on the curl command line
+
+
+Reinvention of Ajax calls
+
+Html page ..we use java code to.make calls on server ..instead of refreshing whole component 
+
+Request response objects which is basically part of server side 
+Parsing request and response getting whole content like html CSS image ,html content get rendered  ..post this Ajax came into.picture  where we used to send part of data to server in which we have info and we are looking refresh /modification 
+Server used to send response instead of sending whole content we only send particular thing which we need at that ment
+
+Then rest came into.picture 
+
+4 type of request ..post delete get put
+
+Same CDN concept ..html images data coming from CDN ..here Ajax will.dexide which content to deliver further from server 
+
+
+
+Xeon machine ...
+
+JavaScript ..runs on client side using client resources to get data from server 
+
+Android phone ..Flipkart 
+Amazon applicaiton ...some.content is already downloaded from playstore now Amazon sever only sending offer price etc which is very small content into.encrupted content and our mobile is using and decrypting that content and rendering on ur screen
+Amazon using ur mobile resources to optimize it's performance 
+
+
+In playstore many applicatio are following below behaviour
+Designed sever side application and used java script 
+Render at client and get executed at client side ..all objects everything created at client side so object GC is used very less JVm and momery  usage is less 
+
+To design an application ..person in backend only knows angular ..
+
+One guy knows angular and one guy knows backend 
+
+UI design htm pages and want data on html age ..don't know. Where backend developer sitting and doi g deployment /development 
+Backend developer design document and send request/response object to.ui developer 
+
+Client requirement ..we want to see Ui component first ...once apporval given then proceed as timeline are tight 
+
+
+One team ..all UI related they used to.mockup with backend team 
+
+Mockup ..login page  contain submit txt button ..given to developer to render on homepage ..username and PWD from UI ..once login is successful he will send validarion..he designed backend part 
+
+Client has given 1 week.time and user will show login credtional page submitted 
+Backed. ..user is validated 
+Mockup shared with client and backend developer 
+Backend developer ..restful services  generating on basis of login creditionals
+
+Client approval ..login should start worki g 
+
+Resource utilisation 
+
+UI component . Buttons added ..controller then Dao...UI.is free then backend is busy and vervwrsa 
+Effective way is...rest service design in backend side and used on UI side 
+
+
+Resource utilisation ..server side people management ..UI design ..2 people are working at same time 
+Disadvantage..performance can't be measured ..don't know who has created the problem on UI ..data is not coming 
+
+Security concerns..we r storing data on client ..and client is always considered as non-trustable 
+
+Document.ready(function)
+Script will.be enabled once page rendered completely
+
+No error.in rendering of page ..JavaScript code not shows so JavaScript code is not executed for security purpose 
+
+Advantage of JavaScript ....all events and component will.not be executed if page is not rendered 
+
+If any error in development it will be corrected before delivery to client 
+
+Restfull cal to system whether user is existing or.not it will.give success response else throw error 
+
+Restful service is used to.manage its own database
+
+Jersey .. framework used to design restful API
+
+Dropwizard ..framework to design rest API
+
+
+Sometime we use ..yml files ...it used to.maimtain parent child relationship ..define parent propery of dB ..it will add configuration into data source object 
+
+But in applicaiton properties we have key pair form not parent child thing 
+
+@valid ..@notnull
+
+Developer ..junit 
+Integration and regression testing
+
+Apache jmeter .. regression testing 
+
+Selenium jmeter..automated testing 
+For web applications
+Before /after test cases are there 
+Testiing /mocking concept 
+We cannot call directly that service so we create. Mock object of that service 
+Controller Dao layer testcases will be different
+
+Injecting mocks ..for which service/class we are injecting mocks 
+Asset ..is used to check with condition
+Assertrow
+Assertcall
+ 
+We will always avoid calling real objects as it's not right so we will.make mock.objects
+
+
+Project facets to used for.importing projects from one ide to another Ide
+
+
+Junit Vs mock 
+Junit ..lots of code is there ..both 
+Mockito ..we added methods , annotations to minimize the code
+Mocking reason ..we have several dependcies across the project so to.keep env isolated we have to mock the behaviour of the dependencies 
+
+
+MVC .
+
+Model ..business +persistence layer
+View ....presenter 
+Controller ..handle request and response objects 
+
+Wsdl ..web service description language 
+Calling service /code ..info needed ...methods u using ..IP address
+
+Wsdl design in XML.files 
+
+Nobody can consume webservice until description is provided 
+So we r using swagger in case of rest 
+Soap ...wsdl
+
+Steps to work with swagger 
+
+Spring fox ..swagger 2 dependency add in pom.xml
+
+
+In spring all objects are managed by spring container 
+
+Why cant we run services on local  because of connection issue   that is why we use swagger as service is deployed somewhere else 
+
+Swagger a communication channel between consumer and producer
+
+
+Hal browser ...add dependency in pom.xml..it will redirect to hal browser 
+Additionally you can see all internal beans information ..beans created in hal browser 
+In simple words monitoring applicaiton via hal.browser
+
+Filtering concept ..let say I have 10 field in pojo class file  and I don't want to send Ssn/dob etc in other word not to send entire response back to client 
+So use filtering concept 
+Static filtering and dynamic filtering 
+So @jsonaignore 
+
+Inmemory authentication or dB authentication
+
+
+Composite class ..it's is base class belongs to Google 
+
+
+
+
+
+IT rule ..if u want to use resources from mobile ..then take permission
+
+====================================================================================
+Eureka server/ hystrix 
+ 
+ It is known as discovery server ..it uses heart beat concept 
+It is used to register with self
+It is used to register with microservice
+
+
+Hystrix is a library  ..it handles fallback easily ..a circuit breaker 
+
+Downstream cal CPS API due to high load  cps API takes time and hystrix won't mark API down and they will do custom reply like resource busy 
+API busy so basically fallback handling easily 
+
+
+
+Turbine is also tool which integrate multiple streams and give one  single stream 
+
+It takes data from hystrix Eureka and give a single stream 
+
+
+
+Zuul is an edge service basically if I want to.hide my URL and showcase something else then we will use zuul
+
+Handle response properly for outside team but will.give error in case of internal API hit 
+
+
+Zuul is an edge service that proxies requests to multiple backing services. It provides a unified “front door” to your system, which allows a browser, mobile app, or other user interface to consume services from multiple hosts without managing cross-origin resource sharing (CORS) and authentication for each one.
+
+==============================================================
+
+Monday notes on
+ 
+ Error we had during safrword 
+
+Change it to new object and get rid of error 
+
+Overall 2 request fire 
+
+In single request ...we should complete whole thing 
+
+Past....One single  request object firing 
+But now our requirement scenario will.not come 
+
+Framework level changes will be required .....CPS 
+
+The way data we r rendering data is different between CPS and cues 
+
+Provider key 
+
+Everything taking into.provider key 
+How exactly provider key working 
+How they r processing data into datgrid 
+
+
+Object get passed in provider key 
+Provider key has its own implementation
+One where passing whole.object 
+Other where passing key value pair drop down thing 
+
+
+
+Swift is an iOS language
+
+We can design IOS based application via swift 
+How data is getting filled into datgrid 
+
+Flexdatagrid 
+
+Keyprovider ..it's gives/store/keep unique records only ..differe t than Apache poi excel
+
+
+Local.repo ..intermediate list of objects ..database taken ...filteration/alteration done at local.respository 
+Activity handler ....
+
+At time of rendering how we will call.init method 
+
+Pager implementation ..server side pagination
+
+Grid working on I'd concept 
+
+Look and feel difference
+
+Ps -ef 
+
+Tomcat ..admin console where we can deploy application 
+
+WC ..word count
+
+
+Post construct concept is At time all objects r loaded into spring container
+
+
+We have stereotypes to define type of class's
+After object get created for particular class ...tagged@ post construct
+
+@predestory ...before removing object ifwe have to do manipulation
+
+
+Is it a good benchmark 
+
+Thread pool size = 200
+It is possible that some tomcat internal threads are included in this and we will see other tomcat mechanism 
+
+Citi is big bank will.comeup with big big suggestions ...end of the day ..we have to support the system 
+Mim is nightmare managed by Citi acting like auditor 
+
+
+You r not happy with system ..move out of the system 
+
+Seeders ...sort of catalyst
+
+Deploy thing in PCF
+
+We cannot access LDAP system from local
+
+Shared resource concept ... two application cannot use same resource at a time Like camera 
+
+I know you r lying we can just conclude the interview 
+
+Client ...f12 network mode 
+
+
+Gwt flow life cycle
+
+While rendering loading grid data 
+
+
+One man army 
+
+Current ..when page render ..we call.grid to be loaded but now btw grid called and nothing happens 
+Temp.solution ...once page rendered completely then we load grid
+
+React is built on web component 
+Webcomponent is core of html 
+
+React support webcomponent 
+
+Arithmetic error ...int To Tiny INT 
+WHICH IS not possible it will loose some value 
+
+Divide by zero is also arithmetic exception 
+
+How liststore works in gxt
+Liststore provide data to grid 
+
+
+lOP..loss of pay
+
+View created then calling to presenter to render value at that html we are setting values
+
+Instead of calling presenter ..calling view first 
+Store got intialized
+
+View = list = zero 
+Store intialized with zero because we are calling view first 
+
+
+We set MFA list /grid at presenter layer 
+
+List = arraylist 
+How to update post rendering 
+
+Replace all with local.history 
+
+When page got rendered it should get intialized 
+
+When page rendered make event handler ..event. Takes updated data 
+
+When rendered with system size then list size print 
+
+We will render first and then Intialize and call event as well 
+
+Blank set (empty)
+Later on will make changes 
+
+Listed means market reputation ..no of employees 
+Model key ..one key used to generate we r overriding functionality
+
+
+How they r refreshing ..add selection handler 
+
+Relative height ..datgrid is in control.panel 
+
+Overflow ...div concept 
+
+View component ..100 records 
+One way ....Scroll.bar visible
+Other way 
+
+Pdf fit into screen size 
+Scrol bar works on relative height concept 
+
+Container works on relative height width concept 
+
+Empty div concept ...div is imaginary concept 
+
+We can put submit button to reduce code 
+
+At 3rd character and 4 th character ..2 queries joining ...ideally.not correct so.delay of 3 seconds 
+
+We will design as part of framework custom implementation
+
+Etc folder is on class path when build it takes from class path 
+
+Client factory ...very important concept ..we need to Intialize client object for any UI operation 
+
+Prepared statement alternative to jdbc template  maintained by spring 
+
+Minor and major java version 
+
+Bug fixes ..minor release 
+
+Major ...pkg changes ..top features
+
+Cues version ..1.01 release ..old release. .1.0 so it contains minor versions 
+
+
+Empty div has no height 
+
+Query columns ...???  
+
+Means setstring (1,safeword)
+Setstring(2,safeowrdatatus)
+
+First column ..first ?
+2nd column ...second ?
+
+
+Web3.0
+
+Breakthrough 
+Setting up components across world 
+
+Semantic web is making internet simple 
+So common.person use internet components use it properly
+
+Max people don't understand how to.do.web hosting ..sor sort of simplification will.be included
+
+Jndi configuration. 
+
+
+Client side pagination ..less data 
+Server side pagination ..more data
+
+If more data go for server side pagination 
+
+Reason 
+
+10000 records ..it will.get first 100 pages from server so.no.performance issue from UI perspective
+
+But at client side . pagination ..we will get whole chunk of data at time of rendering so performance will be impacted 
+
+Client side pagination is like scrollable 
+
+Tooltip.making collapsible 
+
+Gali cricket ..AI applicaiton 
+Stadium 4 people can Play ..live commentary
+
+Paging bar internally loading 
+Xbox layout 
+
+Clustered index ..defines the order in which physical data is stored in table 
+One cluster index per table 
+
+Primary key constraint create clustered index automatically on that column 
+
+Non clustered index slower than clustered 
+
+Folder ..read /write permission 
+
+
+??? Means don't exist in source  code after pull
+
+Money centric compamy 
+Not like customer centric company 
+Pagination intialization at different layers 
+
+Project visiblity based on criticality and funding 
+
+Request got raised goes for budget apporval
+
+Highest tenure ..means highest time period 
+
+Editable ..copy grid data 
+ 
+
+=====================================================================================================================
+
+Wednesday notes
+ 
+ Search component.js
+
+
+Reactdevtools/profiler/debugger 
+All work as anaylzer
+Which will segregate the category of error ..like window error or application error ...basically give proper details of error
+
+
+ ....basically any navigation 
+Error we r facing 
+
+Global installation
+
+GitHub access
+
+
+Profileguijs
+
+Searchcontainer ...like 
+
+
+Webpack.Config.js ...autogenerated file 
+
+Index.html
+
+Backend call
+Client relationship call
+User id based on crid
+Resource call 
+Accounts entitlement call
+
+
+Hooks and service integration
+
+Preuninstall ...only keep backup war 
+
+
+Preuninstall  the whole system war and then postinstall
+
+
+
+
+Cip world
+
+You should maintain soft heart at my side as well
+
+-e jar
+
+-e -X compile
+
+
+Download is read access if download at my machine from GitHub/server 
+
+Upload is write access if upload to GitHub server ...write only acess
+
+If pushing something on other env...there can be issue 
+
+If it had at local then it was my fault
+
+
+Eclipse can covneted to sts via sts plugin 
+
+Just offline download and install in eclipse
+
+Clean workspace in eclipse ...under project ...use when one time it works and other time don't works 
+Restart build restart
+
+@pwrsistencecontext ...same like user context we maintain at database side
+
+
+Vanilla JavaScript .. is plain javascript.
+
+New container of every page
+
+
+Weak copy.concept ...(shallow copy concepts are same)
+Whenever Mocking requirement is there
+ 
+Reflection..
+
+When to save Profile ..we make profile proxy object ...we get value from textbox 
+So here I don't want proxy object because 
+I just want empty object
+
+What is the problem he is saying ...he is giving false information
+
+
+=================================================================
+
+
+new saturday
+ 
+ Jsp advantages ...it is most of container supported hot deployment ..make required changes in jsp and replace old page with updated jsp directories so container will load new jsp 
+
+
+Jsp life cycle ... Translation compilation class loading inttalixatuon request processing ,destroy
+
+ Jsp init and js destroy methods Can be overident using jsp declaration scripting element 
+
+Put Everything in web inf to prevent direct access of jsp page
+
+ Jstl advantages...faster development ...many tags it provide simplify the jsp Code resuablility No need to.use scriplet tag
+
+ Servlet config ....web container creates object of servlet config for each servlet It is used to.pass configuration information to.servlet Responsible for initializating this object
+ Use getservletconfig() to get object for servlet
+
+
+ Servlet context ..web container create object of servlet context for each web application Provide access to web application parameters to servlet It basically give getservletcontext() 
+
+
+
+Task of servlet container ...communication support ..lifecycle and resource management ....multithreading support and jsp.support
+
+We can use servlet context object ...and define parameter s..in web.xml
+
+ Web server ..handle http request ..understand http.language and run on http.protocol Handle http request from client browser and respond with html response 
+
+
+
+
+ Using Application server ..additional feature such as enterprise java bean support ...Jms messaging support ...txn management ....it is a webserver with additional functionality to web developers with enterprise application
+
+
+
+ Web-app ....are modules that run on server to provide both static and dynamic content to client browser 
+
+
+Servlet and cgi comparison ... Servlet r robust ..no memory leaks ,gc...web application developed with server CA. Run on any standard we container such is tomcat
+
+Better performance then CGI(common.gateway interfaces )
+
+Url encoding ...it is process of converting data into cgi form
+
+All logs get stored in Nas server 
+Virtual path ..it exist but we don't get access until we have home folder access 
+It runs on SSD which makes it very fast 
+To avoid latency btw applications  
+Logs r continuously running and application won't become slow so no.network.latency 
+
+
+
+Top.command ...used to check.usage in Linux 
+
+2 issues ..logs r not.getting created 
+
+
+External user for server ..
+
+Over the putty.  We r logging into system ..put creditionals 
+
+There is specific user ...not exposed to putty but it is inside the system.
+
+Oltp processing is similar to batch 
+Take 1000 record data from tables and put into.memory or virtual table 
+
+Once it's processed it remove data from temp tables 
+ Benefit of this table ..oltp.has put 99 records and oltp server failed at last record ..so.oltp.can capture in tables (99 already  and it.is failed at last record 
+
+
+I want to move out of organization due to.personal.things and I need your references ...it.will.be great for positive reference 
+
+
+Oltp dao ..which r going to.update CPS related tables 
+
+Replication process ...suppose 2 services ...both service updating single database 
+
+For these sort of thing we used to maintain cache /intermediate 
+Ah and cps cache db 
+
+
+
+We only maintain cache at CPS side like cpscacheswrver ...there is no word like ahcache at our side 
+
+Suppose we r entering data in pfsubaccnt there will be linked enteries in other tables  as. Well
+
+Listener r configured in such a way ..once finalized it will update other related tables 
+
+Generally we do partitining  in audit tables year wise
+
+Replication policies ..it get replicated over all instances 
+
+One to one ...
+
+
+There is a difference btw  instances and server 
+One server can run multiple.instances one different port  ..
+
+40404 ..cpscache 
+40405...ahcache
+
+
+Listener are in ahcmdsrv which r listening all.backend server (front agent ) Operation through ahservices
+
+
+Weak copy concept
+Ahversion support util ...weakcopy.java
+..it creating weak copy 
+
+Weak copy ..it used to make weak copy of class 
+
+Source and target defined 
+
+Target in which we used to convert 
+Source ..object returning after comparing source and target classes
+I
+
+It will create difference total methods 
+
+Weak copy class 
+Ahversion support util ..vsu.java 
+
+PFID..it work.in window session 
+But PFID won't work in Linux session. 
+
+At convention is PFID ...camel case convention
+
+every service used to maintain some.kind of versioning ...general concept 
+
+
+
+Incase of durable connection ...if txn management so we need durable 
+
+Non durable ..user going to particular screen and idle for couple.of.hours then we don't need to.maintain session 
+
+
+Every developer ...expects 3-5% of error 
+
+10 user stories ..1,2 defects r permissible 
+99% code should be good 
+
+Tdd ...first test cases r designed then development get started 
+
+How view should be installed /executed ?
+
+
+2 types of connection 
+
+Durable and non durable
+
+What is debugging ..internally reading and connecting to server 
+
+
+Atlas mongodb
+
+Create cluster ..created uswe
+
+Whitelist ip address 
+
+
+
+
+
+Java run on byte code 
+
+
+Inside eclipse 
+
+When compile the class ..when run ...2 links /index created 
+One is class to.java and other is java to class 
+
+Cross references r created
+
+
+Mongodb ...bson is popular in JavaScript community 
+
+Meanstack react ...very stable built in application
+Meanstack angular.   
+
+Scale horizontally ..which means u can add cheap.machines to build up clusters
+
+
+React concepts 
+
+2 types of hooking 
+
+Router ..used to take care of navigation 
+
+Props...child to parent ..when we pass value from child to.parent 
+
+Whenever changing /moving from parent to child ..then we use states 
+
+React js life cycle 
+4 things 
+
+Intialization...setting up proprs and states 
+
+Mounting ..rendering components 
+Any validation before rendering then use 
+(Component will mount )method
+
+Once rendered ..component didmount method get called 
+
+Should component update....suppose data is rendered 
+
+Before changing component...table rows it will call (should component update)
+Component will update
+Render 
+Componentdidupdate
+
+
+Unmounting is like u can clear sessions ..clear data source etc
+
+Redux and reflux components...going to change state
+
+
+For maintains state ..we use action 
+
+Niche technology ..are very hard to find ...engineer are rarely available
+
+Action r stateless component 
+
+Axios ..rest API call
+Xhr ..ajax call ...support asynchronous call
+
+Java ...server side language 
+
+Xhr call ...client side to server interaction
+We can use java script and We can check on UI and no need of postman or something 
+
+
+Postman only for rest API 
+
+Action ...stateless pure component ...no own value 
+
+State to chck ..either return object or error 
+
+
+Complete ...object
+Incomplete ..promise
+InBetween...error
+
+When response comes ..it used to check action performed or not ...so state get changed as it is one way communication..Props and state get changed as well...should componenteillupdate method also get called
+
+
+If all services hosted on 1 server then use dot url ...(.)+url
+
+Create -react -app
+Webpack ..bundling files 
+Development server ..it's server only
+Babel.is compiler 
+
+
+Npm start means start development server
+
+Const..let..var ...all r constants in react 
+
+Reactdom.render(element,.        )
+Above space comments ...in realdom we  have to enter so use plain javascript to render into real Dom
+
+Virtual DOm is memory representation of UI
+
+Import react from 'react' is must 
+React element is part of virtual DOm 
+
+
+We have to render into real Dom  so we have 2 arguments 
+First one ..elements
+Second ....index.html contains for react application ....use JavaScript to get reference of that element
+
+We render app which contains tree of components
+
+
+Bootstrap ...it is css library which gives application modern look and feel 
+
+
+Jxs ..get better code compilation
+
+Simple react snipper ..
+
+Cc ..class components 
+
+
+jSX expression ..get compiled to calls to react that create element that's why we import react object on top
+
+Import all.componenrs in index.js
+
+Babel don't know what to compile /to create
+
+Automatic semicolon automation
+
+Multi cursor editing ...Ctrl +d 
+Dynamic editing ...
+
+
+Embedding expression ...rather than hardcode value 
+{This.state.count}
+So we use {} to.render values dynamically 
+
+jSX expression compile.react elements as well ..in jSX we don't have if and else ..jsx is not templating engine 
+
+So to.render elements conditionally we use JavaScript 
+
+
+Setting attirbutes ..
+
+Tags ...
+
+Empty string is considered as falsy 
+String  that has at least one character is considered as truthy
+
+Number O ...false ." ", Null is considered as falsy 
+True..Hi ..1 are truthy but result last operand is 1
+
+Handling events ..
+Handle increment()
+Pass reference to render ()
+
+Onclick ..this .handleincremenr get called
+
+Binding event handlers
+
+_------+++++++++++++++
+This in JavaScript behave differently than other languages 
+This can refer to different objects
+
+Obj.method 
+Function () ..standalone function. 
+We use bind method to solve above issue 
+
+Make constructor 
+Constructor {
+Super()
+This.handleincrement.bind(this)
+Here this will return current object
+
+Arrow function don't this keyword .
+
++++++++++±++++++++++
+
+Instead of writing constructor
+
+Handleincremenr =()=> {
+Aboves is approach to bind event handlers 
+This.setstate()...we need to do this to update status into realdom
+
+
+All browsers r monkey patched in angular so change automatically updated 
+
+This.setstate (Count.this.state.count+1}
+
+
+We need to pass arguments to event handlers
+Below is inline function
+Dohandleincrement=()=>{
+This.handkeincrment}
+
+
+
+Composing components
+Pass data 
+Raise and handle events 
+multiple components in sync
+Functional.componenrs
+Lifecycle.hooks
+
+Debugging react apps 
+
+
+Prop vs react 
+
+Prop..it is data we give to the component 
+State ...data that is low or.private to component .it is internal completely to.that component
+
+
+Sometime component don't have state so it may get all data via props
+
+Prop is read only we cannot change input to component 
+We cannot modify prop object as it's read only 
+
+
+Passing children ...this .proprs .children
+
+Handle click event 
+Component that owns piece of state ..should be the one modfying it 
+
+
+State is private and infernal to component 
+
+Handle delete ..counter 
+Ondelte ..counter 
+
+Concept of raising and handling event 
+
+Updating the state ...
+Const counter .=this.state.counter.filter
+
+This.setstare..(counter.counters)
+We should maintain at one location 
+
+Single.sourxe of truth 
+Resetting button counter 
+
+Each counter element have their different storage value
+State.lift up...lifting state up
+From counter component to.parent component 
+
+Stateless function component (plain javascript function )...which takes proprs as argument and returns a react element
+
+Destructing arguments
+Lifecycle hooks
+
+A)Mount ..constructorrender ... render ..componendidmount 
+
+B)Update ..render ...componentdidupdate
+
+C) Unmount... componenwillunmount
+
+When component render all it's children render recursively (fifo)..which is not good scenario as if child component don't have updated value so we have method called as 
+Shouldcomponentupdate
+
+Updating phase 
+
+When we render then all children get rendered when component render that doesn't mean entire Dom is updated ..webasically.get react element so we r updating virtual DOm react will.then. Look at virtual DOm ..it also have copy of old.virtual Dom that's why it don't update state directly so we can have 2 different references in memory ..we have old virtual DOm and real Dom then react will see and update based on that and we get updated real Dom 
+
+Component did update ..we compare with new proprs and new state 
+
+Also we can make ajax calls to get new request data from server
+
+
+==================================================================================
+
+sunday 
+ 
+ The user who is creating file ..he is owner of the file ...tomcat 
+I copied tomcat folder so.i am.full.owner
+But tomcat internally using java jars 
+The user who.installed java might not given permission 
+
+We used to set up in java folder ...these files r available for tomcat 
+So I am running application in tomcat so through application we can execute file structure of server 
+
+Generally people used to restrict files /folder etc and mentioned I'm Catalina .policy 
+All permission goes in catalina.policy 
+
+
+Tomcat context.xml is static web.xml
+
+
+
+Imp.note ...tomcat is an application as well as server 
+
+Like running application in windows but want to.showcase on Unix so override in context.xml
+
+Logging.properties ..this is logging framework
+
+This is logging framework...
+
+
+Tomcat manager ...it will.showcase 
+
+Tomcat running status 
+What heap size 
+Data source 
+Application
+
+Server.xml...contains all configuration of running application and load balancing 
+
+In tomcat ..we have shutdown listeners 
+8005 ...by default we can change it to.other port 
+
+Hot code swapping ..concept replacing code dynamically without restarting server 
+
+Flat file system ...main frame system work on flat file system 
+Uswd to work momentarily 
+
+Suppose 30 lac records a d it take 10-20 mints but in flat file system ..index are there ..it takes few seconds 
+
+Spring batch is trying to replace main frame system 
+
+In java we have concept called as class loader.  It is used to load classes at run time 
+Suppose abc.class used to load one method needs to read so we load dynamically
+
+
+Hcs swapping ..service runs in backend which checks what files running in backend ..it is used to replace files where deployed 
+Like abc.clads ..changed things 
+Xml file ..server location ..source code package ..destination
+
+Multiple application can run on single tomcat 
+It used to give alaram if threads not available for running application
+
+How server came to know that threads r running /created 
+So we have listeners which check resource leakage give alarms etc 
+Application keeps on creating threads
+
+Here ...
+Jre ...global
+If we don't give Catalina homepth we cannot use above listeners 
+
+Set of users ..we want to.restrict access of application to some users 
+First is ...write some code ..store.permission in db 
+
+Other is server level restriction ..defining set of users ..create instance of server so deploy application to above instance 
+
+Tomcat-user.xml.... we keep roles user/password etc in this file 
+
+Disadvantage of above file is ..we have to restart the system so.maintenance is.high
+
+In tomcat we have configuration to run on Ssl/tls or http 
+If running application on Ssl then by default tls should be there 
+
+We can run tomcat on multiple port by configuring server.xml
+
+For load balancing install apache -swrver == mode-jk then we can load balance
+
+How tomcat used to configure mode.jk
+
+Tomcat structure ..bin config lib 
+Catalina ...logs 
+
+When you jsp calls then it convert into class and store in work location 
+
+
+Jsp ...java (intermediate file )...class 
+
+El is expression language 
+Tomcat_home ...required 
+
+2 ways to execute tomcat 
+One as a service 
+Other as command prompt 
+
+Startup.bat ...it is used to search for Catalina_home
+Tomcat_home
+
+
+Full capabilities of tomcat ...then configure all things mentioned in Catalina.bat
+
+
+Jpda ..it is used for remote debugging
+Mentioned in catalina.bat 
+Check home ,temp directory 
+
+Application folder not existing at run time
+2 ways to add environment variables 
+
+Static way via environment window
+
+Another way to setup via command prompt(dynamic way)
+
+
+
+Company don't want to.invest into OS so Unix/Linux as .open soure
+
+ we generally install softwares 
+When I run any software it install.temporary files...so in Linux we can restrict folder space 
+
+Like in opt folder ..I want folder  to add only 10gb 
+So restricting folder size in Unix 
+
+Port of jdpa ..can be configured but tomcat port cannot be configured 
+
+Suppose multiple tomcat on system only jdpa port can be changed in catalina.bat
+
+
+
+React little bit
+
+But for maintains state ..we use action 
+
+Niche technology ..technology which are very hard to find 
+Engineer r hard to find 
+
+Bucket technology ..less.people use so.job less so engineer less 
+
+Action are stateless or pure  component 
+It has no own value 
+
+State to check ..either return object or error
+
+Complete ...object
+Incomplete ..PROMISE 
+In-between ...Error
+
+When response comes ..it 
+
+
+You didn't find comfortable here 
+
+Xhr   is ajax call ...supports asynchronous call 
+
+Axios ..rest API call 
+
+Xhr call ...client side to server interaction 
+Postman for rest API only
+
+If all services hosted on one server then use dot url .....(.)+ Url
+
+
+Sunday notes 
+ 
+ Stackoverflow....possibly when class object continuously loaded into stack/memory so redeployment happening
+
+Tedious task ..
+
+
+Response from XML is XMl...only issue is parsing 
+
+Marketplace hit request r normal 
+
+Intermittent issue
+
+XML elements comes under name spacing 
+
+We r taking namespace and creating tags 
+
+Create object from.jaxb.xml
+
+JXB. ...LOOKING FOR GENERATION OF CLASS
+
+XML to object ...not working 
+XML to class ..exploring 
+
+Nebulazier ..via breathe /nose medicine get passed ...vapours get passed via breathe 
+
+
+Conversion of XML into xsd
+Made java via XML response ..easing 
+
+JXb using for now ...faster way we tried for JXb
+
+Parsing approach taken JXb
+
+XML mapping was not mapped with java object ..due to this thing we converted XML into xsd so we got java file and put into utility so we mapped it properly 
+
+
+Input stream was not getting closed so we closed input stream as byttearray
+
+XML parsing requires more efforts 
+Fails at time of parsing 
+At time of reading elements 
+At time of streaming /processing input stream 
+
+XML follow Dom structure which is like tree structure  
+
+Below.our cues CMP case 
+Order header  ..is root ..after that it will keep on traveling other nodes 
+
+Sequential backup ...which is incremental backup 
+Other is timestamp based 
+
+Overall crux is mind will remain good 
+
+It is killing all the time 
+Technology side 
+Working very very closely with us ...surprizely we got first feedback from.business side 
+Definitely it's not throw away work 
+
+
+I cannot approve things which is not under my radar 
+
+It's undefined rule/pattern in US when person got h1b and bring his wife here then he start looking for new Job
+
+Sometime we have to take.it and follow the things
+
+This is not technology call as this is business call ...they kind of accountable 
+
+We r not able to address all issues ..support intervention is very necessary 
+
+Narrow down the CMP 
+
+Jaxb converters ...
+
+We components ...it is created by Google 
+Client side rendering ...work like react ..resumable component 
+
+Widgets ..it is used to create Dom like structure 
+
+Math ...Ml machine learning + AI ..artiticial intelligence
+
+
+If related classes has no data then it may or may not be problem /issue because as in case of aspect ..we can ignore this error as lazy loading concept is there 
+
+If any high level processing of data is there then we use central system or main frame system to retrieve data 
+
+
+You have to call out in meeting ...sort of escalation
+
+Can we have 2nd level discussion
+
+Working off hours 
+
+In lie of that particular working day ..will I get combo off
+
+It will be difficult to manage at my end like extra hours to company ..I have some personal work ...want a combo off 
+
+Bit tough for me so pls don't put me in refdata as it impacting my deliveries 
+
+I am doing extra work for you so.things don't get delayed 
+
+Another point of contact 
+
+U need to.mention complexity and necessity of project
+
+
+Document which is up and ready with you 
+Window + left arrow key 
+
+I don't like these sort of words 
+
+
+Convey XML Gregorian calendar to SQL
+CMP should be designed with ease of business not with convenience to technology 
+
+Let me cut the discussion here 
+
+You r welcome to take look and give suggestion that is not negotiable 
+
+
+This is the only way to go then why not we follow the process 
+
+It will goona  help us and help you
+
+I can accept potentially as a compromise 
+
+Middle ground solution ...win-win for both of us
+
+It's good to challenge people 
+What value of dollar you r giving me
+
+509 host nam verifier 
+
+Gethttpclient method ..which willr return httpclient object 
+
+Sslcontextbuilder 
+
+True returns in case of trusted then we build context 
+
+All.certificates present in our cues path then it will put into array x509 certificate 
+
+Separate link for each businesslike 
+
+Time Collides with Dublin
+
+Dollar valuation asking for 
+
+Keeping robotics in mind 
+Procure all approvals 
+
+Thinking for everybody has to shake hands and then proceed only then it will take deviation 
+
+
+It will be interested to know that 
+What API we expose we should insert data into database 
+
+Service and adaptor interaction happening 
+
+Down the line ...Shelly will come where r we with fxpb
+
+
+Cpswebservice ...which will connect to CPS API ...datasource will be created in CpsApi and further communication in 
+
+What will be the response format ..type of data ..format of response 
+Use existing standards formats etc 
+
+
+Fid ...I'd own by team to perform some functions 
+
+We kind of own that space 
+It's doable 
+
+It goona work without problem
+
+We kind of train/help taking through entire journey of prod/infra support
+
+Any team connect to our cpsapi via OAuth authentication 
+
+For making call to our API ....they should have a role in our system 
+Username /PWD ..authenticated at our end 
+
+Authentication API give role called marketplace 
+
+All APIs have been exposed ..mobile lock /main lock
+
+Cpswebservice...mobile users have access to mobile expect for those applicaiton  which have specific locks 
+
+Role specific authorization not implement ed by Zhang for cues API 
+
+Env ..property of spring framework or we can take as argument
+
+Username and PWD are mandatory ..client address as optional 
+
+Apilock ..details from cache fetched 
+
+
+
+User in red color in drop-down are not active 
+
+Validation control point
+
+If backend Api are not ready then  error  and explicitly we r not handling that error 
+Because we want error because from that error we know API is not working 
+
+
+I don't want blame game 
+
+Red amber and green items 
+
+Without certificates we r consuming Api
+
+Migration will.be simple or tricky
+
+Dblink process is handshake process 
+
+
+I responded in haste 
+
+
+Order creation. ...bracket issue  
+Certificate issue 
+XML ...space issue 
+
+If i have missed anything ..can u pls add it
+
+
+Soft delete ..we cannot it see on UI but dB has entry 
+Requirement ..like terminated user ..we want audit history later 
+
+
+Retention policy ...take atleast I can take my resignation back when I resigned 
+
+
+CTC ..cost to company 
+
+Cryptocurrency ..mining of money 
+Fair currency disadvantages ...notes r  corrupted or account money is dormant
+
+
+Confuse the hell out of yourself. 
+
+Product  still lived on its seat 
+
+Let's see how development  react to it ..it might be option in future 
+It not a show stopper 
+We r going to look into opportunity
+For.now we can continue 
+
+We r open to suggestions
+
+I don't want noise.up there 
+
+Pls get back to use if you see any anamoly
+
+Next action /timelines 
+Required for further analysis 
+
+========================================================================
+
+sat/spring notes
+ 
+ Spring Jms..sunmicrosystem only If I have to pass message from 1 application to another application then use message broker Hundred of application sending message via broker We can acheview this communication vis JMS We can't achieve this communication via webserver ..direct communication Message broker is active mq IBM mq. Rabbitmq. Jboss apachecamel Convert PDF to byte array Application context built on top.of.beanfactory it helps to provide config to application
+
+ We can create object of.interface via anayonmous class
+
+ Flyway application 
+
+Add flyway jar in pom It will search for db creditionals Migration folder ..it will search for version of migration Flyway create ...table ...history...schema Where everything like version is maintained On next execution it won't insert that 
+
+How versioning is maintained Version migration ...checksum version .. description
+
+ Ddl statement...don't have restore point We don't have restore point
+
+ Dml have restore points ..that's why we create logs 
+
+Flyway ..resources ..folder has to be on classpath
+
+ How we r going to maintain version of database It get executed in all environment Non txn and txn data will be different 
+
+Spring used to maintain own txn management 
+Txn mode
+ Non txn mode
+
+ Txn mode ..managed by data source Non txn mode ... automatically create itself so it is independent rather than dependent on spring Non txn statement ..select queries Txnstatement ...alter ..update ..delete ..insert Multiple txn ...kind of joins Rollback can applied via AOP 
+
+
+Ajax ...advantages Offers functionality without plugins
+ Run on all.platforms 
+
+Disadvantags..every browser handle ajax differently 
+
+Gwt deals with fact that every browser handle ajax call differently Gwt comes with lot of pre- build components Styling is done in CSS Support for inclusion on third party components 
+
+Breakdown of gwt app Rpc call Clientgui > server backened Ajax call (run in browser) 
+
+Java files will be cross compiled and run on browser 
+Byte.code run on server
+
+ Gwt ...high level of abstraction 
+You can do handwritten JavaScript coding against widget
+
+ Magic of gwt ..it is hosted mode browser 
+During development you interact with application and hosted made browser ..run your java bytrcode in backened to render with user interface in embedded browser 
+
+2 benefits 
+Because running bytrcode it means we debug any java application ...setting breakpoints. .inspecting through code . We can use json to communicate with server 
+
+We can develop using familar edit. Refresh view programming model of JavaScript Don't need to compile java source into JavaScript to see changes in browser
+
+Gwt provides rpc.mechanism ..no.need to.deal.with low level.http.connections
+
+Google.handle browser implementation differences for us
+
+Create optimized JavaScript files 
+Code is contained in browser specific JavaScript
+
+Gwt..webmode .. application translated into.html ..JavaScript code deployed to.webserver 
+
+Power of spring boot is even project setup is taken by spring boot 
+Downloading tomcat via jar means by default it comes with tomcat
+
+Autowiring at all.levels ..method ..parameter ..field ...
+Application only for runtime 
+
+We can't override in  subclass
+.@override ..applicable at source level 
+
+Lifecycle methods or callback methods 
+
+Init ()service destroy() 
+Callback methods called by container automatically
+
+
+Postconstruxt ...predestroy 
+Predestroy basically clear the cache
+
+Before using object I want to perform some.operation is done via ostconstruct 
+After using object ..predestroy to clear cache
+
+
+
+
+Getting data from map ...it takes nanoseconds
+
+
+Spring boot ..we r using application context
+
+@qualifier
+@singleton
+@prototype
+
+@inject
+@named
+@provider
+@scope
+@singleton
+
+Annotation means no configuration in XML
+
+Annotations are not recognized by container
+
+Component scan..predefined in spring boot ..by default scan all packages
+
+Autowire means no need to setter method 
+Autowiring means ..object is injected into container using spring 
+
+After designing controller ...dao class ..then we have to write test cases 
+
+How to bind xml into java object ...we have xml binding framework
+
+Spring provide module ..spring oxm ...provide mapping between java object to xml
+
+
+
+Spring provide another mother for writing test cases .junit test cases
+
+Installing war file in server location ...is not correct approach
+Install war file into.maven respository then testing and running 
+
+
+For context object ...if we r not using spring boot then use component scan 
+
+
+So 2 ways in spring to configure and detect spring managed component and register with application context  
+
+Component scan 
+Context annotation config 
+
+2 ways to load properties
+Property place holder configurer
+Resource bundle message source
+
+Internalization ..output will come in their region language
+
+
+To load properties file by using xml annotation. Approach 
+
+Driver class name..fixed for whole application
+
+@value ...is used to get value from property file 
+
+How to configure multiple properties file
+
+Book ticket through irctc
+After payment we get null pointer expectiosn means ??
+That is possible through dependency check...
+Basically I was concept of check which is removed in spring advanced versions
+
+Dependency check in XML
+
+Autowired(required = false)
+Gives exception
+
+
+Transfering data from one layer to another is DTO and that can be in forward and backward directions
+
+Who will bind actual data  so manually we have to set and transfer to another layer in result set (jdbc)
+
+But in case of  spring orm(spring jdbc)
+Hibernate will bind automatically
+
+all dto must implement serialization 
+
+Dto vs command object
+
+Html format data bind objects to another format which is command object 
+
+Spring mvc html data is binded with actual data object so we use command object
+
+
+What are the options to send data from UI to backened 
+Json object 
+Command object 
+
+Copy data from one object to another object is command
+
+How to create jdbc object and inject object into jdbc template
+
+Jdbc template depends on data source
+Data source depends on 4-5 properties 
+Driver class name ...url..username ..password etc
+ Example 
+Student service ...>student dao ..>jdbc template ..>data source ( Driver class name ...url..username ..password)
+
+Runtime spring container will create object of driver class
+
+
+On top of normal jdbc ...spring people designed one layer ...jdbc 
+Spring also uses normal jdbc
+
+
+Interface A{
+M1()
+
+}
+A a new A(){
+M1()
+}
+
+ Above is way to create object of interface 
+
+Insertion 2 approaches 
+
+Hibernate ...by default it create tables
+Hibernate mapping to Ddl
+If table not available ..it create table 
+Hbm2ddl.auto=create
+
+Each and every timr client creating table so.lossing old data table..
+Hbm2ddl.auto= update
+
+Rowmapper ..directly we can map.resultset with row number (db table)
+
+Rowmapper ..maps rowdata with single object
+
+How to get data from tables 
+Rowmapper ..always expect list of objects...to map row with one object
+
+Result object will point to first row and then iterate
+Query method of rowmapper always expect list
+
+In java ..we using dynamically way 
+Then we have jdbc template. ??,?? ...? Is position I'd.paramters
+
+Named parameter jdbc template 
+
+Need of maven...getting latest code from respositories like svn ..css
+
+Project ..designed by n developers and developers maintained code in separate repositories
+
+
+How to get files from.repository that tool is called svn  (version control system)
+
+
+Building process ...process of compiling source code ..packi.g binaries files and copying files from.one location to another ..getting latest code from.respositories like.svn ...deploying the distribution into server and running junit test cases ..this entire process is build process
+
+Build tools ..ant maven and Gradle 
+
+Drawback of ant ..ant don't provide depenedncy jars...it just download jars and we have to add manually
+
+Maven ..compile ..create war file ..deploy
+
+Maven ..is management and build tool
+
+Where as ant is build tool.only
+
+Broker ..providing communication between producer and consumers
+
+Company ...multiple projects ..I started server in my local.to.test changed and my colleague also doing same at this.maccinr 
+We don't know who consume message 
+
+So configure listener install activemq in local
+Answer ...we don't have option to.know.how many cosumer consuming
+We r dependent on active mq/rabbit mq
+
+
+Agile methodology ...
+
+RAD ..RAPID ACTION DEVELOPMENT 
+
+
+WATERFALL ...planning documentation ..design architecture .. implementation testing production 
+
+Disadvantages ...if requirement phase wrong then if changes need to be done then go back to implementation ..so it takes lot.of time ... ..here actually thing is once product is delivered then we fix any new requirement  so by that time like 5-6 year technology becomes outdated 
+
+RAD.... We deliver module by module 
+Here first is requirement ..design .. implementation 
+
+Agile ..has no documentation
+
+Let say project has 100 modules 
+Each module contain user stories ..then make task and task is converted into.user hours 
+
+
+Disadvantage ...if developer leave then very difficult to understand as no documentation 
+
+Sprint zero ..next Sprint ..fix previous Sprint o issues 
+So.we r fixing all.issues at once so.it will create problem ..develope stress level.is high
+Spill over happens ..very common
+
+Advantages ...issues can be recitifed on time ..work is to design ..2 textboxes then we designed 3 texbox
+
+Kanban board
+
+Jpa is specification given by Microsoft
+Hibernate is an implementation
+
+
+All below ORM technology
+Hibernate
+Jpa
+Ibaties 
+Toplink
+
+To work with hibernate 
+Configuration files 
+Mapping files ...no required for jpa or annotation
+Pojo classes..persistent
+Client application
+
+
+Spring security project 
+
+
+Inversejoincolumn ...if u delete user id ..then it delete only that row ...without inverse join column it will delete all rows
+
+Fetch type ..eager ..lazy 
+
+Linked objects ..
+If Eager ..when we query user ..user is associated with role and then will link ..so user object retrieved everything 
+
+But in realtime advantages ..we fetched all so performance low
+
+Lazy fetch ..delays initalization. Of resource so increase performance in above scenario
+
+
+Vi .. visualize any file and perform operation like concatenate ..insert etc
+
+JavaScript advanced version ...jQuery
+
+Document ready .. document load ..page loading 
+Page loaded now document is ready 
+Document load ..after response but before display on UI
+
+Document ready ..after page loading but if exception nothing shows up
+
+Ajax is command prompt version. Of postman 
+
+Ajax is webservice only
+
+UI debugging and backend debugging 
+
+Spring security 
+
+Oauth2 client ...Gmail and Facebook using this oauth2 client only ....signups/login using fb and google 
+
+Okta ...token based system 
+
+Standardized way to get everything covered related to authorization
+
+Load user by username 
+
+
+Communication btw Angular  application and java application is intraoperable system 
+
+
+Microswrvice r also using restcontrollers
+
+
+Smart development ...in which we all use different environment
+1 build will be created 
+
+All environment setup like gitclone And this is achieve d by script..imp point
+
+Then we have smart development
+Development setup
+
+Polling concept ..admin will give authorization to you ..to download projects with certification 
+
+
+Jenkins .. Cicis tools where with single.click it create pipelines on remote and build.war file 
+
+To save time on local setup ..people came out with smart development 
+Automating building process 
+Automating the deployment process
+ 
+Jenkins ..war created pipeline created
+
+Gradle advantages ..LOC reduced ..any file we execute like Linux ..ksh ..batch like I want to make folder structure in Linux ..then I will chck log files 
+
+Filtering concept 
+Json ignore ...filtering concept 
+When you don't want to send your SSN dob etc details to server then use filtering concept 
+
+Json ignore ..this is static approach 
+Json ignore properties ..value { contact ..datof birth"}
+Above is static filtering.
+
+Other is dynamic filtering 
+@jsonfilter
+
+Lazy and eager loading 
+
+Hibernate give bydefault ...lazy loading 
+
+At time of loading ..we don't load entire data like video images ...n no of.things ...that is meaningless
+
+
+
+Session
+
+
+Framework design 
+Functional and non functional 
+
+Like gwt ...what are the starting class ..basic components ...debug intern.classes
+What are things different on gwt 
+How we configure 
+
+Exception handling ...checked and unchecked exception
+
+How to handle exceptions 
+At framework layer ..how we handle exception 
+
+
+Synchronized methods ...
+==================
+
+Apache jk..used to work.as load balancer
+
+Mode jk ..is a file/module where all config things are defined 
+If you want to block up or.provide security via certificates so we can do it and apply on tomcat server level
+
+Instead of buying 4 certificates ..just buy 1 certificate and apply at tomcat server 
+So change is done at one server only 
+So configuration will easy 
+
+Advantage with rest is it support both xml and json 
+
+
+Asp application communicate with java application via webservice only 
+As we can't share heap memory from 1 application to another 
+
+
+Spring microswrvice modules deals only with restful services
+
+
+Soap ..xml only
+Rest ..xml +json
+
+Multiple.server ...over the proxy
+
+Soap ...jaxws ...java API for xml webservice..soap.is ri implementation of aixs or cxf ..specification given by sun 
+
+Cxf ...has capability to integrate with spring 
+
+Url.is part of.uri
+
+All beans are managed by spring container 
+Spring web framework ..struts is an  alternative  
+
+
+=======================================
+
+hashmap 
+
+hashmap
+ 
+ Hashmap implement map and extend abstractmap
+
+
+Abstract map ...also contain similar methods
+
+Above is Generic implementation 
+
+Earlier hashmap internally using arraylist of linked list but in 1.8 they moved to treenodes
+ 
+Reason of move 
+Suppose 1 million records.   If search in linear way then consume lot.of memory so use treenodes which use arbitrary algorithm 
+
+Arbitrary  algorithm concept ...whatever data we r inserting in tree  ..root value always more or less than left and right child 
+
+So whenever we have complex scenarios ...we always go for arbitrary algorithms
+
+
+Data scientist....
+
+New offers /promotions ..company is benefited 
+So basically we need to do prediction 
+Model trainers 
+
+Machine learning is basically learning on basis of data set
+ Task like training model ...how to train model 
+
+Steps
+Model .... Data
+
+==============================================
+
+daily2
+ 
+ Cues ..application context /session loaded at time of startup  on Linux boxes /server ....this is Token maintaining at application side ...and 
+
+
+Session context  ..at time of input of creditionals ..user session
+
+Why we reboot things on server 
+Because there is a life of every object
+Stale objects wipeout 
+Object refreshing
+
+
+I will not pullback my resignation
+
+
+Ant build ...is not preferable as we have to keep jars under lib folder always 
+No such maven pom.xml way ..to download dependcy on the fly
+
+
+========================================
+cue
+ 
+ Microswrvice architecture ...service will pull data so ...batch tool like CA autosys not required
+
+
+Mule ...runtime engine of any platform 
+It is lightweight ..java based enterprise service bus allow developers to connect application together quickly 
+
+Instance of ...String a = new String ()
+here "a" is instance of string ..returns true 
+
+
+If init ...declared in bean package then it will call that class and initialize thread with fixed rate ...wait till 10 second for one element and put into list 
+
+Factory design pattern.  Class A.   Whenever I call class A then new object instance will be created similarly in string we get( new instance of string ) is created 
+
+Conventions ..client factory.java
+New instance should be created of object everytime 
+
+
+Why we prefer XMl...rendering is very easy and faster than java files 
+
+You know in and out of the project ..then use 2 approaches....start from backened 
+...
+
+start from frontend only when (ui we know ) and not sure on business requirement
+
+Back to front ..when we are very sure on business requirement
+
+Client factory ...is used to add details like user profile , realm into presenter layer 
+
+
+Compare ...when sorting we need to do on basis of 1 column/variable in default order 
+
+Comparator ...sorting based on ID /name /column then use comparator 
+
+Mouse out handlers ...
+
+
+Menu items ...static menu and dynamic menu 
+When select then handlers ..when rendering the menu items an event is called to check if child item are null then cancel all.items 
+
+
+Why dummynodes are being added at all level other than subaccount level
+
+If it is greater than 3 then use icon (+)
+If size =3 then show all 3 
+
+
+
+Json format
+
+
+Metric beat ...lightweight shipper ..can install on server to perdiocally collect metrics
+Dialect is something  middleware  between pojo and SQL
+
+Singleton map... Sort of Map...by nature it is singleton 
+
+Only one instance of object will be there throughout application ...updated instance get returned whenever called
+
+Hermes ..
+
+Executor framework ...used to implement multithreading inside state 
+When requirement in cache ,, in thread etc...when it is synchronized then it is used to block thread
+
+It is not allowing threads to get data out of it so it will keep blocking threads 
+
+
+Thread management 
+
+
+Full pipe and open from.both ends 
+It reach upto end of the pipe until anything go out we cannot insert new item
+
+
+Fixed thread pools ..take out threads from thread pool and put into blocking queue 
+
+Whenever we need increase or decrease blocking queue  we can check active /inactive threads ..memory cost is saved 
+
+When we increase thread size ...suppose reading file which is  using 10 threads so thread size increased ....here increase in blocking queue size is recommended
+
+It is more or less array blocking queue ...linked blocking queue 
+
+
+
+Executor framework  ..it is kind of service designed in java ..managing states of thread 
+It has many states ..developer always used to face difficulty in managing /creating /stopping threads
+So java created framework which will.maintain state of thread ....it is sorry of factory 
+
+Framework taking care of state of thread 
+
+Thread pool will.maintain state of thread 
+
+Threads creation
+Extend threads class 
+Implement runnable
+
+Callable ...return  always future object
+Future objects is returned when callable statement execute
+
+Bank ROI ...(rate of interest )
+Is momentic ..all of sudden on any day bank.will.change ROI
+If we put this ROI  in code then we need to change functional code changes everytime
+
+It won't allow packages to be downloaded from internet because of vulnerabilities 
+
+PAC URL ...it is configuration we used to define in PAC file ...window specific file 
+
+
+Pom.xml
+
+Internal and external.jar ...we used to have parent child relationship..download dependencies on.the fly
+
+In react ...generally we r not connecting to database s ..we connect to webservices
+
+Npm install
+Npm start
+
+
+React ...hot code swapping 
+Redux ...saga...thunk ...help to switch from one state to another 
+
+Babel ...dynamic loading of pages 
+
+2 ways to define classes 
+
+Stateless ..go for function ..only have render method  (constant don't have its own state )
+
+
+State method ..multiple function and return type as single component
+
+State is kind of array
+
+2types of hookup
+
+Hookup created at bitbucket ..whenever making call to bitbucket ..we call to hookup...hookup will fetch details
+
+
+Rest template ..part of spring web 
+Whenever we call one webservice to another webservice we need rest template 
+
+Npx ...advanced version of npm
+
+Angular have 2 way data binding if any change then it automatically get changed in objects in controller layer then Dom get rendered as object
+
+Webpack ..is inbuilt server at server side 
+
+==============================
+
+daily 1
+ 
+ Ssh protocol is used to authenticate and establish Sftp connection 
+
+
+Ways to generate ssh keys
+
+
+Sizebased trigger policy .....
+Timebasedtriggerungpolicy ....at particular interval of time ..it will breakout
+
+
+
+
+In log4j a logger is associated with a package or sometimes with a particular class. Package/class of a logger is defined by the attribute "name". A logger logs messages in its package and also in all the child packages and their classes. The only exception is the root logger that logs messages for the all classes in the application.
+
+A logger also has level and may have one or many appenders (logging destinations) attached to it.
+
+In log 
+Target  . .System out ...it will print on console 
+
+Root level ...it will log messages for all classes
+
+,
+
+
+Gemfire server
+
+Framework design 
+
+Gwt customized ...in CPS/cues ...like grid ..we just use objects and we get grid 
+
+But if we have to design Citi/company specific 
+
+Grid we customized based on CPS and cues separately  this is part of core framework 
+
+So later on further 3-4 year guy can build the UI etc as he can use framework method/objects
+
+
+Rest can accept TCP ..http ..https etc
+
+
+
+Threads using as I can  see run method in class
+
+Class file ...has main method means it will run whole file as java and we can see test results 
+
+Multiple junit test cases in one class ..we can test separately given No main method in class
+
+
+Azure certification ..if we comparing AWS .
+SNs ..notification service
+
+Mongodb ...we made commands..we pass keys
+
+====================
+ref notes 
+ 
+ Sock.js ...an API used for real time updation like  Chatting application
+
+It create socket between  Client and  server ...whatever data coming from server it keep on updating data t client side /UI
+
+
+Comet is a Framework which also work like this
+
+
+Sockets applied at UI which continuosly capturing data from server
+
+
+Scheduler can be scheduled at java end as well ...check code
+
+Schedulers r applied at java end and
+
+
+========================================
+
+notes ... important
+ 
+ Data center we access remotely 
+
+Server should be kept in minimal temperature
+
+Microsoft , Facebook Cisco ..server have low energy server 
+
+1 laptop take 40-50 watt
+If any heavy program ...CPU usage is high ..multiple threads 
+
+Thread 1 ..... Data taking from hard disk 
+Thread 2 ....sequence data 
+Bits and bytes 
+
+Like example MP3 player ... sequence of bytes 
+Stream ...keep on reading ...thread running internally
+
+One thread running by consumer ...MP3 client 
+
+Thread 3 .. taking data from datasource 
+
+Raid disk ..these r on demand hard disk which requires no change to existing server 
+
+2 types 
+Application server like CPS /cues 
+Data server like log screen ..storing data into harddisk
+
+1 server having 1 tb harddisk  internally swapping swap space 40gb 
+When 40.gb fall in
+
+My app generates 1 tb of log every year and harddisk gets filled after 5 years so we will add external raid hard disk so it automatically add space to existing harddisk
+
+Smart TV ... HDD FTP access 
+
+Router is to route the things 
+
+Advanced router work as FTP server ...making. To internet and can access to shared harddisk 
+
+Goldman Sachs ..only cooperate dealing 
+Top notch ...highest quality
+Society generate 
+Snake bit . ...Bite on  tongue ..few hours of sleep 
+
+Dialect ..intermediate btw pojo and database
+
+Multiple beans of same type ..we have to use one of them then use quailifer instead of autowiring 
+
+Common logging is internally using log4j
+
+
+Slf4. .part of spring framework
+
+Commong logging ..abstraction layer on top.of log 4j
+
+Sl4j contains log4j
+
+3 types of radar 
+
+Automobile 
+Defence 
+Airline 
+
+Radar is used to showcase the things within its range ..used to track the things 
+But for defence system radar range is too high 
+
+Radar are setup in areas of jungles 
+
+Public area like highway etc ..less obstacles as surrounded by greenery
+Less accident ..high performance
+
+Gwt design is like server is equal to client proxy 
+
+
+We do event handling only on presenter layer
+
+Margin setting in gwt at server side but all new technologies like react etc at client side 
+
+
+Change the witdth from UI downscreen to get numbers /idea because gwt text box checkbox created at server side but in new technologies all checkbox txtbox created at client side 
+
+ First inspect then do code changes 
+Adjust and see difference on UI ..then go back and set into eclipse 
+
+Overflow ...width .
+Here width is overflowing so it will keep in container only
+
+Noclassdefined error ..means it's not getting class 
+
+Profileproxy ..we maintain at client side 
+
+Profileproxy used for server interaction
+Server side ...original object we maintain
+
+2 types of session 
+
+Application context ..at time of application load
+User session context ..when user login 
+
+Session I'd ..part of user context 
+
+List can be intialized Via arraylist  only like 
+
+List a = new arraylist ()
+
+Every method in implementation class will be overridden 
+Given method declaration in super class 
+
+Http client utl ..in profile gui is a way we making call to cpswebservice 
+
+
+
+Thumb rule ..every interaction of service with other system require session
+
+Data we have to set for user in session ..getusercontext()
+
+Session I'd ..get from authentication class
+
+
+10gb logs ..need to iterate those logs and split it on basis of server id
+
+
+
+Elk Vs lucence
+
+All.of sudden manager said fraud happend ..want to see logs of
+
+So make intermediate application connecting to multiple application which will connect to all services /gui etc and generate logs at one place ...so all logs at one place
+
+Post is used for insertion as well as updattion 
+Http client sort of client where we can post request to server 
+
+Object JSON ..
+
+Multi layered data so we cannot pass Map 
+Map (string string ) ...so we will make object to pass it 
+Object to.json ...we can pass JSON as part of header in client request 
+
+JSON is key value pair 
+
+Header ..we can pass data as key value pair only
+
+Why gson ..because JSON request body is complex structure 
+
+Generic jars ...no class defined found error 
+
+? Means files doesn't exist in bitbucket but created while compilation /build of projext
+
+Team ...show in history ...compare with local.history 
+
+.git ignore file ...to ignore change 
+
+Either java files not getting compiled due to which we r not getting class files out of it so class definition error ...noclassdefination error
+
+Drill down ...means customizing the default behaviour/ properties of httpclient 
+Qtpse7kp-79 ...thread I'd in logs 
+
+Removed context as it was searching additional.info like certificates
+
+Live validation where set of business and testing users are involved 
+
+X509 certificate comes in case of SSL
+
+Stackoverfloe ...possibly when class object
+
+
+
+i get things easily but actualztion things later is diffciult for me 
+
+
+
+=============================================================
+
+notes2
+ 
+ Auto FS ...service used to clean things at linux server for mounting purpose ..it is sort of client side service Want to access some directory not.present in server ..it will create file/folder on server 
+
+In case of NAS ..any hardware added ..no.need to.stop cues/CPS services Team and CYBERARK not applicable to application level 
+
+All system are not centralised When window creditional.get changed ..everywhere creditionals get updated ,
+
+LDAP is centralised authentication system CYBERARK is being managed similarly like ldap Pojo class cannot contain logs Happy path ..normal flow 
+
+Daily rolling file appender ..logs runs for 24 hours Info ..less logs Debug has more logs 2method .. serialization and deserialization Timeframe ..minimum load we choose Table structure can be made in cache regions
+
+
+ LLC ..set of libiality is fixed by companies Company opened ..show liability of 50 lak And 30 lak can be granted from gov Turnover cannot be exceeded by 1 core Mainframe..consider as super computer ..started developing things on mainframe system .. Springboot way Yml ...parent child relationship Server.yml ... Server : Properties :ABC Port :1222 But in application propters ... Server.url Server.propertis 
+
+Just difference is declaration difference Profiling ..Dev uat .. prod sit etc 4 projects ..started Poc ...have some poc Worked on warehouse application Provide link ...sample creditionals 
+
+
+Bkp ..backup file Class path variables ... 
+
+$ ..Linux class path variables Claspath variable Linux echo Linux way ..to get class path Echo $name(you see) .
+
+Bash_profile...contains class path of user ..when I login to Linux env ..it usually create this bash file and create and maintain claspath of that user User variable ..user specific System variable ...system specific Linux path variable concept Pega ..niche technology Deployment can be done using internal users only ..internal path Some case where some internal users cannot use deployment directory or some specifi folder So we use other way like copying in EERS ..DATA GET copies from EERS to epgadm Views are expose to other services ..won't add columns Gettwrsetter always in camel case Boolean always ...isboolean Debugging UI...f12 ..under elements ..set property Chokidar 2 ..FS events ..which used to create issues related to system hardware Search component used to get rendered inside high level component Hoc ..highlevel component One component can be rendered We used to create auxiliary component ...ie high level component We used to create dummy component ..wherever child passing Arraypassing into highlevel.order So we will.get object of high level component Hoc is advanced technique in reactjs React only return one value ..if we need to return multiple values or form then we used to create high level order component Response body is high order component ..we use any value ..single ..multiple null array etc Same case with react PARRRS... react select drop-down Search.js ..fetch client ..users FIFO ..recursion .. Npm -g install ..g stands for global -g ..add in claspath Npm works on particular application version Java has so many versions..at time of design we define version of java etc Incase of failure ..what is the next step ..2nd step ..All Thinking at time of framework designing Webapp folder is always inside tomcat Deployment is always from webapp folder Jndi works with all either it is database ..tibco Excel travsering /filing concept Top.level hiearchary 4 objects ...workbook ..sheet ..rows ..cell Once we get sheet ...skip 1st row as it's header Means u have to count the cells in header then iterate header if ABC found in header Resiliency testing 70. 80% of applicaiton use mongodb as intermediate database ..only 3-4 dB are reliable dB in market and considered as stable version SQL server .oracle ..Sybase Paging concept ...Offset ...sort of wording we use when we fetch data from database .. Offset =limit =count of data pulling/sending like 100 Deep cloning or deep copy is same SXSSF ..STREAMING CONCEpt .IF Data needs to fetch from database and I want data to be added hand to hand And generally we used to out intermediate data in map/list but in case of bulky data mapoverflow so ssytem get failed or performance issue So to increase performance we are making intermediate objects and putting data hand to hand Permission is toggle functionality ...like ON or OFf Cherry pick ...no of commits on particular commit I'd we can fetch particular commit ...cherry pick can be done at both local and remote side Debugging alternative way ...use Java agent in eclipse for class files Useful for project which takes lot of time for debugging Absolute path ... Full path Canonical path .. Here is a canonical path. C:/files/foo.txt Here are absolute paths C:/files/FOO.TXT C:/files/FOO.txt C:/files/foo.TXT C:/FILES/FOO.TXT Canonical path is a absolute unique path to a file Reading file in java ...fileinputstream..fastest way to read Dot is period sign Splitting won't work on period sign so use ("\\.) UTf-8 ..log file and text file have code in scanner New scanner (input stream "utf-8") In general project we used to pass Map ,list but here in Citi we are passing properties files ABC: 123 Def: 456 Cuz : 781 Key 
+
+,value ..XML or map.or.list
+
+ Until I am.not changing version number obsivoly new jar object not get deployed Why we delete mav_repo because it download from.local 
+
+Maven possible errors Delete from ...
+
+maven-repo Checking setting.xml Check group id dependency Maven .- repo after 1st build it always get downloaded from local and same work in remote Claspath ..project path ...add dependency separately Whenever we working on ssl ..we have to pass certificates whatever content we pass Server.xml has SSL configuration Need a week to test it out React and java application works together ...both have to run parallels Standard we should not put main applicaiton page into index.html Index.html Weblogic.xml
+
+
+ Cors ...cross origin resource sharing Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. ... For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. Every server has its own way to.implement cors policy 
+
+
+Swapping the URL of dB will.be easy way to connect to Dev /uat Here profilegui is.not allowing data to be consumed by react which is CORS Patch 
+
+
+concept ... configuration on your local ..so patch is being shared Configuration are created as patch file Apply that patch to code at server side If doing at local ..configuration get changed at local server as well So patch file is configuration file Httprequest filter under network... Packet transfer issue ..latency issue Make build ready for react applicaiton and put into java application Npm run build 
+
+There are many ways to redirect the output 
+Console 
+File Buffer-clipboard
+
+ Iterating header and checking value coming in header or not Atomic integer ..used in concurrent environment ie multithreading Atomic integer ..used by multiple threads at same time for increment purpose Location count ..is to check on which column no, value -1 At which location it exist Location exisitvaluesearch For.now we r doing stringsearch only In and out parameters .. In parameters. We pass to so Out parameters.
+
+
+
+We get from so Ddilegacy certificates..access certificates.. applicaiton which are accessed via certificates only Jython ..java implementation of python Diamond sign
+
+
+
+
+
+
+
+
+
+
+========================================================
+
+tectia ..java api  
+
+log file from remote swrver via java code and out into particular folder ..once it is located we will reqr that file and search required content 
+instance of ..is comparison operator 
+
+jsch ..user name pwd to get session
+.ssh .
+1st way  .we used to create session private key and public key
+2nd way is to create session via user name pwd 
+
+
+sftp progress monitor ..we can check to monitor file transfer progress
+batch move...for downloading multiple files
+
+download multiple files using ftp via java 
+winscp is a windows based so we used batch
+
+tectia is linux so we are going via java api
+
+
+beans lifecyle ..we used to 
+
+applocaiton context is more advanced vrsion of beanfactory 
+all.beans get laoded into aplicaiton context ioc ar time of startup and where beans get seggragated as we have beans differentaion..like singleton ,,session ,protype
+
+
+chaning concept ..one method get executed following other method execution etc 
+1->2 soon 
+
+
+when we parse values into java ..no case of value coneverted in java but in grails we have value contverted so it will update( : )everywhere
+
+==================================dailynotes
+ 
+ Java agents ..used for hotcode swapping at 
+
+If one file to.change which takes another hour to build/deploy process so for.this purpose we use java agent debugging way
+
+
+Difference between listener and aspect 
+
+Http request ...controller call..I added aop logic ..so aop excecuted when controller got processed
+
+Once per request listeners ..when request fire it execute ..listener got executed 
+
+
+
+
+
+Difference between observables and promises 
+
+
+Observables and promises comes under react and angular 
+
+API call from UI ..we intially return promise object in react
+
+Promise handle one service request 
+Observables handle multiple service request 
+Both are asynchronous in nature
+
+
+
+============================
+
+interview 
+ 
+ Working.on same payroll...tough to.survive
+
+
+Ur ownership is lacking
+
+If u see something  always say something
+
+Need to discuss with you ...nowadays things are very tensing 
+
+Need favour from your ..what exactly my current status in grabbing fte .it will be great for me
+
+
+
+
+===================================================================
+
+2 ways to print special characters
+
+JavaScript ...&gt and Lt is equal to <>
+ASCII way ..&#39(asiic value) === () ..
+
+Paas and saas
+
+Citi cloud services 
+Private ..on premises and offpremises
+
+Paas.. onpremises
+
+Onpremises..very costly ..company folks will.come onsite and install setup env and licence will be given
+Offpremises...cloud hosted where AWS will be managing from their location
+Pay per monthly/weekly/usage 
+
+
+Onpremises ...3 level.encyrption
+
+User level
+Basic encryption..public and private 
+Middle.level ..cryptographic
+
+CGI ..process when single txn session is created ..if btw logging with other machine ..txn will.be declined very few banks are following 
+
+Swift transfer r not.momentic 
+Intermediate services r running and validating 24x7
+
+
+Before hibernate static and dynamic query r into java which creates problem like big joins ..multiple joins ..big codes 
+To solve this problem ..we out into xml and we make parser 
+<Query>..key value form.pair 
+So if any problem in query we used to.get error.in beginning when application get started ...xml parsers used to parse xmlr
+Collection r very fast .
+
+
+Cpsclient using query builder 
+
+Advantage is while loading application we got all queries 
+Loc is less 
+SQL injection attack is less as we r using SAX parser to parse queries (Citi parser )..chck
+
+?,% %. ...instead of parsing into SAx parser ..we pass into.queries ..as parser don't allow special character 
+
+Closable httpclient ...once request get completed means when response recieve then httpclient will close the session object 
+
+2 ways to create logger 
+Logger factory 
+Logg
+
+
+Niche technology ...it can be new or outdated 
+Very few person available in market 
+Ofbiz ...high paid salary 
+
+ERP... Enterprise resource planning 
+
+All work within organization can be handled via ERP like warehouse .production ..repository ..attendence
+
+
+Trigger are used to modify /update other tables when any insertion deletion modification happens 
+
+Trigger degrades performance so we don't prefer... general ly we used to fire batch queries ..if one table needs to be updated then only that code execute via batch 
+
+Workflow system ..which keeps on checking if any udpation is.therr ...it will update tables 
+As it work as a scheduler 
+
+No load on DB 
+No code break on system
+
+Hibernate don't have concept of trigger 
+But we have cascading effect which is sort of trigger So queries will have cascading effect because of hibernate 
+
+Flex /JSF ..UI component both came in market at same but jsf was successful but flex was not 
+
+Techstack migration .. version migration 
+All upgrading system 
+
+All add * sp will be called when ther is update or insert in tables ...
+
+At level 3 ...groups can be created 
+
+
+Defragmentation alogrithms ..piecing together 
+
+2*n ...block size  allocated at different location 
+Memory of sys objects 
+Algorithms which is used to allocate memory 
+
+Time to time ...internal system used to run defragmentation to get sequential memory 
+Search capability will be reduced 
+So we add defragmentation to.make sequential 
+
+Neo4j...it is server as well as desktop APi 
+Find out bulky data from text files 
+
+It is used for crawling and analysis artificial intelligence as well 
+Jenkins.pythons
+
+Grace(it's kind of JVM) ..it is VM middleware ...groovy
+
+Mature platform...on top.of this ...php...groovy ..java . We can run this 
+
+For java we need to.install JDK
+
+So if grace is installed then we can run php ..groovy ..kotlin
+
+
+N number of classes in java file but only one public class in one java file 
+
+Inner class concept ...
+Public class name .......a.b.class
+A.class  A.b.c.class
+
+Why many classes get created 
+
+2 objects exist in java file and these objects are called in 
+So.these classes can be easily referenced 
+
+Inner class or nested class is a class declared entirely within the body of another class or interface. It is distinguished from a subclass.
+
+Performance testing tools ..grafana ..kibana 
+Apache famous tool ..Jmeter 
+To hit application by 10k users at same time 
+
+Automation testing ..
+Path changes 
+
+
+One user ...multiple session 
+
+Multiple users ...update of single property ...multiple user at same time 
+
+Single.user ..multiple.session 
+
+Snipping or tapping 
+
+Payment to Sachin via paytm UPI ..at same time ..tap request to another API ..he is redirected via same API
+This is an overall Crux 
+
+
+
+============================================================================================
+
+Eclipse plugin for react development
+
+Sonar cube..static code analysis
+
+Dev and SIT we don't generally  go to Sonar cube 
+
+For uat ..we go and deploy to sonar cube server and see vulnerabliyties report file
+
+
+Feign ..declarative web service client Postman is service client for.testing restful services 
+
+But in java if we want to call rest service go for feign Feign client ...balance the load /request Spring boot 
+
+ribbon ..clientside load balancing with ribbon If one instance busy ribbon with ask to.point to another instance Let say services cs1 cs2 C's 3 running Ribbon will call 
+
+Microswrvice ...small.rest service Alternative of rest template is feign 
+
+Ribbon drawbacks .....I don't want to maintain all 3 instances ..only.maintain 1 so remove configuration 3 urls etc 
+
+Above drawback.of ribbon.is resolved in microswrvice via eureka naming server 
+
+If u want to opt out the instances then configure url in properties files If u want to opt out the instances then configure url in properties ...fixed by eureka naming server Problem in ribbon ..hardcode values /url.in properties file 
+
+Solution is ENS .eureka naming server Which is rest based server used in AWS cloud services for load balancing and failure of middle services 
+
+Devtools ..to restart server 
+
+Acutator ..for monitoring purpose 
+
+Discovery server ..when service is up it used to register the discovery server and can take all rest calls 
+
+Ribbon will be responsible whether request will go to 8080 ,8081,8082 etc Naming server ...contain all services configuration used for discovery server 
+
+Ribbon API run on top of naming server 
+
+Gone for good and left and not coming back It has gone for toss...means service has stopped working
+
+ In spring we go for component scan to go particular /class so it register everything with application context
+
+ But in spring boot it automatically scan everything 
+
+Single sign on ..many below approached LDap Same Oauth2 Kerberos 
+
+Filters ..filter is configured based on filtertag Like . Filter can take request and so as servelt can take request as well But normal.xml can't take request so that's why filter is mandatory 
+
+
+
+
+
+======================================================================================================
